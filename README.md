@@ -2,8 +2,6 @@
 
 ## Welcome to the COMP 247 Project - Supervising Learning Project - KSI Collisions Toronto
 
-## Information
-
 # Relevant Information:
 - College: Centennial College
 - Program: Software Engineering Technology - Artificial Intelligence
@@ -17,7 +15,7 @@
 - Saenz Huerta, Ronald
 - Sidhu, Manipal
 
-## COMP 247 Project 
+# COMP 247 Project 
 
 Group Project – Developing a predictive machine learning model (classifier) and deploy it as a web API for inference
 
