@@ -1,8 +1,38 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 18 14:45:16 2022
+# GROUP PROJECT
 
-@author: gmi_r
+## Welcome to the COMP 247 Project - Supervising Learning Project - KSI Collisions Toronto
+
+Relevant Information:
+
+    College: Centennial College
+    Program: Software Engineering Technology - Artificial Intelligence
+    Term: Summer 2022
+    Course: 22M --Supervised Learning (SEC. 001) - COMP247001_2022MW
+
+Group Members
+
+    ., Ripudaman
+    Maria, Karan
+    Radmy, Mahpara Rafia
+    Saenz Huerta, Ronald
+    Sidhu, Manipal
+
+COMP 247 Project
+
+Group Project – Developing a predictive machine learning model (classifier) and deploy it as a web API for inference
+Dataset
+
+https://data.torontopolice.on.ca/datasets/TorontoPS::ksi/about
+Models:
+
+    Logistic Regression
+    Random Forest Classifier
+    Decision Tree Classifier
+    KNeighbors Classifier
+    SVC
+    
 """
 
 import SLProjectLib
@@ -39,6 +69,9 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import KNNImputer
 
 
+## Functions
+
+### Analyze Data - Data Exploration, Stats, Plots
 
 def analyze_data(data):
     
@@ -69,6 +102,8 @@ def analyze_data(data):
     pd.plotting.scatter_matrix(data, alpha=0.40, figsize=(13,8))
     
 
+### Analyze Data - Unique Values
+
 def analyze_data_unique_values(data, value_counts):
     
     print("\n","Data - Unique Values")
@@ -78,35 +113,7 @@ def analyze_data_unique_values(data, value_counts):
             print(data[column].value_counts())
 
 
-'''
-Write a function that accepts a dataframe as an argument and normalizes all the 
-data points in the dataframe. Use pandas .min() and .max()
-'''
-def dataframe_normalization(df):
-    '''
-    Parameters
-    ----------
-    df : TYPE
-        DESCRIPTION.
-
-    Returns
-    -------
-    df Dataframe.
-    
-    https://www.geeksforgeeks.org/data-normalization-with-pandas/
-    Using The min-max feature scaling
-    '''
-
-    # copy the data
-    df_min_max_scaled = df.copy()
-      
-    # apply normalization techniques
-    for column in df_min_max_scaled.columns:
-        df_min_max_scaled[column] = (df_min_max_scaled[column] - df_min_max_scaled[column].min()) / (df_min_max_scaled[column].max() - df_min_max_scaled[column].min())    
-      
-    # view normalized data    
-    return df_min_max_scaled
-
+### Cleaning Data - Replace values, Drop columns
 
 def cleaning_data_initial(data):
   
@@ -149,6 +156,8 @@ def cleaning_data_initial(data):
     
     return data
 
+
+### Cleaning Data - Replace values
 
 def cleaning_data_values(data):
     
@@ -634,6 +643,7 @@ def cleaning_data_values(data):
 
 
 
+### Data Preprocessing - Get pipeline transformer, and X, Y train ant test data.
 
 def get_pipeline_x_y(data=None, test_size=0.20):
     
@@ -673,6 +683,8 @@ def get_pipeline_x_y(data=None, test_size=0.20):
 
     return full_pipeline_transformer, X_group, Y_group, X_train, X_test, y_train, y_test
 
+
+### Get Best Model - Logistic Regression, Decision Tree, Random Forest Classifier, SVC, K-Neighbors Classifier
 
 def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X_test, y_train, y_test):
     
