@@ -5,6 +5,8 @@ Created on Mon Jul 18 14:45:16 2022
 @author: gmi_r
 """
 
+import SLProjectLib
+
 import os
 import pandas as pd
 import numpy as np
@@ -35,6 +37,7 @@ from scipy.stats import randint
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import KNNImputer
+
 
 
 def analyze_data(data):
@@ -139,6 +142,11 @@ def cleaning_data_initial(data):
     # Drop columns with null count greater than 40 % .
     data = data.dropna(axis=1,thresh=(data.shape[0]*0.6))
 
+    # -----------------------------------------------------------------------------------------------------
+    # Drop duplicates values - rows    
+    data = data.drop_duplicates()
+    data.nunique(axis=0)
+    
     return data
 
 
@@ -395,6 +403,8 @@ def cleaning_data_values(data):
 
     '''
     
+    
+    
     # -----------------------------------------------------------------------------------------------------
     # Column: ROAD_CLASS 
     
@@ -617,15 +627,15 @@ def cleaning_data_values(data):
     # -----------------------------------------------------------------------------------------------------
     # Drop duplicates values - rows    
     data = data.drop_duplicates()
-    
     data.nunique(axis=0)
+    
 
     return data
 
 
 
 
-def get_pipeline_x_y(data, test_size):
+def get_pipeline_x_y(data=None, test_size=0.20):
     
     features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "INJURY", "VEHTYPE"]
     features_columns_numbers = ['HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
@@ -634,6 +644,7 @@ def get_pipeline_x_y(data, test_size):
     #    ('imputer', SimpleImputer(missing_values=np.nan, strategy='constant', fill_value='missing')),
     #('imputer', KNNImputer(n_neighbors=2)),
     
+        
     categorical_pipeline = Pipeline(steps=[
         ('imputer', SimpleImputer(missing_values=np.nan, strategy='constant', fill_value='missing')),
         ('encoder', OneHotEncoder(handle_unknown='ignore'))
@@ -653,11 +664,11 @@ def get_pipeline_x_y(data, test_size):
     X_group = data[features_columns_categorical + features_columns_numbers]
     Y_group = data['ACCLASS']
 
-
+            
     np.random.seed(2)
 
     # Divide data in train/test 
-    X_train, X_test, y_train, y_test = train_test_split(X_group, Y_group, test_size=test_size if test_size else 0.20, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(X_group, Y_group, test_size=test_size, random_state=0)
 
 
     return full_pipeline_transformer, X_group, Y_group, X_train, X_test, y_train, y_test
@@ -693,10 +704,16 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         
     elif classifier_model == "DecisionTreeClassifier":
         
+        #'classifier__min_samples_split': [2, 5, 10, 20], 
+        #'classifier__min_samples_leaf': [1, 5, 10], 
+        #'classifier__max_leaf_nodes': [None, 5, 10, 20],
+            
         param_grid = {
-            'classifier__criterion': ['gini'], 
-            'classifier__max_depth': [5,10,25,None],
-            'classifier__min_samples_split': [2,5,10], 
+            'classifier__criterion': ['gini', 'entropy'], 
+            'classifier__max_depth': [2 ,5, 10, 25, None],
+            'classifier__min_samples_split': [2],
+            'classifier__min_samples_leaf': [1],
+            'classifier__max_leaf_nodes': [20],
             'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
         }
         
@@ -809,9 +826,9 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
     print("Best Score:", gs.best_score_)
     
     # Test data performance
-    print("Test Precision:", precision_score(gs.predict(X_test), y_test))
-    print("Test Recall:", recall_score(gs.predict(X_test), y_test))
-    print("Test ROC AUC Score:", roc_auc_score(gs.predict(X_test), y_test))
+    print("Test Precision:",precision_score(gs.predict(X_test), y_test))
+    print("Test Recall:",recall_score(gs.predict(X_test), y_test))
+    print("Test ROC AUC Score:",roc_auc_score(gs.predict(X_test), y_test))
     
     print("Test Accuracy Score = ", accuracy_score(gs.predict(X_test), y_test))
     print("Test Confusion Matrix = \n", confusion_matrix(gs.predict(X_test), y_test))
@@ -827,4 +844,3 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
     plt.show()
         
     return gs
-        

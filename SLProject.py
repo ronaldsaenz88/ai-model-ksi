@@ -38,6 +38,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import KNNImputer
 
+from sklearn import tree
+
 
 #####################################################################################################
 # Load & check the data: 
@@ -72,13 +74,16 @@ SLProjectLib.analyze_data_unique_values(data, True)
 # Build Classification Models 
 #####################################################################################################
 
-# preprocessing - create pipeline with transformers - get test and train data 
+
 
 full_pipeline_transformer, X_group, Y_group, X_train, X_test, y_train, y_test = SLProjectLib.get_pipeline_x_y(data, 0.20)
 
 print(full_pipeline_transformer, X_group, Y_group, X_train, X_test, y_train, y_test)
 
 
+
+
+###############################################################################
 # Testing models
 
 gs_logistic = SLProjectLib.get_best_model(data, 'LogisticRegression', full_pipeline_transformer, X_train, X_test, y_train, y_test)
