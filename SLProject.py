@@ -11,6 +11,8 @@ Relevant Information:
     Term: Summer 2022
     Course: 22M --Supervised Learning (SEC. 001) - COMP247001_2022MW
 
+Group # 7
+
 Group Members
 
     ., Ripudaman
@@ -60,8 +62,7 @@ from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import RandomizedSearchCV
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, VotingClassifier
 from scipy.stats import randint
 
 from sklearn.compose import ColumnTransformer
@@ -70,6 +71,7 @@ from sklearn.impute import KNNImputer
 
 from sklearn import tree
 
+import joblib
 
 #####################################################################################################
 # Load & check the data: 
@@ -139,19 +141,19 @@ print(full_pipeline_transformer, X_group, Y_group, X_train, X_test, y_train, y_t
 gs_logistic = SLProjectLib.get_best_model(data, 'LogisticRegression', full_pipeline_transformer, X_train, X_test, y_train, y_test)
 
 
-#### RandomForestClassifier
+#### Random Forest Classifier
 # By Sidhu, Manipal
 
 gs_random = SLProjectLib.get_best_model(data, 'RandomForestClassifier', full_pipeline_transformer, X_train, X_test, y_train, y_test)
 
 
-#### DecisionTreeClassifier
+#### Decision Tree Classifier
 # By ., Ripudaman
 
 gs_decisiontree = SLProjectLib.get_best_model(data, 'DecisionTreeClassifier', full_pipeline_transformer, X_train, X_test, y_train, y_test)
 
 
-#### KNeighborsClassifier
+#### KNeighbors Classifier
 # By Saenz Huerta, Ronald
 
 gs_kneighbors = SLProjectLib.get_best_model(data, 'KNeighborsClassifier', full_pipeline_transformer, X_train, X_test, y_train, y_test)
@@ -165,6 +167,58 @@ gs_svc = SLProjectLib.get_best_model(data, 'SVC', full_pipeline_transformer, X_t
 
 #### ALL MODELS - BEST MODEL 
 
-gs_all = SLProjectLib.get_best_model(data, 'ALL', full_pipeline_transformer, X_train, X_test, y_train, y_test)
+#gs_all = SLProjectLib.get_best_model(data, 'ALL', full_pipeline_transformer, X_train, X_test, y_train, y_test)
 
 
+#### Hard Voting Classifier
+# By Saenz Huerta, Ronald
+
+gs_hardvoting = SLProjectLib.get_best_model(data, 'HardVotingClassifier', full_pipeline_transformer, X_train, X_test, y_train, y_test)
+
+
+#### Soft Voting Classifier
+# By Saenz Huerta, Ronald
+
+gs_softvoting = SLProjectLib.get_best_model(data, 'SoftVotingClassifier', full_pipeline_transformer, X_train, X_test, y_train, y_test)
+    
+
+
+
+#####################################################################################################
+# Save Models 
+#####################################################################################################
+
+# Save the splitted data in csv format
+X_train.to_csv('X_train_data_group7.csv',index=False)
+X_test.to_csv('X_test_data_group7.csv',index=False)
+y_train.to_csv('y_train_data_group7.csv',index=False)
+y_test.to_csv('y_test_data_group7.csv',index=False)
+
+
+# Save the full pipeline using the joblib – (dump).
+joblib.dump(full_pipeline_transformer, "full_pipeline_group7.pkl")
+
+# Save the model Logistic Regression
+joblib.dump(gs_logistic, "LR_model_group7.pkl")
+
+# Save the model Random Forest Classifier
+joblib.dump(gs_random, "RF_model_group7.pkl")
+
+# Save the model Decision Tree Classifier
+joblib.dump(gs_decisiontree, "DT_model_group7.pkl")
+
+# Save the model KNeighbors Classifier
+joblib.dump(gs_kneighbors, "KN_model_group7.pkl")
+
+# Save the model SVC
+joblib.dump(gs_svc, "SVC_model_group7.pkl")
+
+# Save the model Hard Voting Classifier
+joblib.dump(gs_hardvoting, "HV_model_group7.pkl")
+
+# Save the model Soft Voting Classifier
+joblib.dump(gs_softvoting, "SV_model_group7.pkl")
+
+
+
+    

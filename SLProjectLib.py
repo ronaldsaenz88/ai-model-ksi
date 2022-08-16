@@ -11,6 +11,8 @@ Relevant Information:
     Term: Summer 2022
     Course: 22M --Supervised Learning (SEC. 001) - COMP247001_2022MW
 
+Group # 7
+
 Group Members
 
     ., Ripudaman
@@ -60,7 +62,7 @@ from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import RandomizedSearchCV
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, VotingClassifier
 from sklearn.ensemble import RandomForestRegressor
 from scipy.stats import randint
 
@@ -690,13 +692,22 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
     
     
     # Initialze the estimators
-    estimator_1 = LogisticRegression(random_state=42)
-    estimator_2 = DecisionTreeClassifier(random_state=42)
-    estimator_3 = RandomForestClassifier(random_state=42)
-    estimator_4 = SVC(probability=True, random_state=42)
-    estimator_5 = MultinomialNB()
-    estimator_6 = KNeighborsClassifier()
+    estimator_lr = LogisticRegression(random_state=42)
+    estimator_dt = DecisionTreeClassifier(random_state=42)
+    estimator_rf = RandomForestClassifier(random_state=42)
+    estimator_svc = SVC(probability=True, random_state=42)
+    estimator_kn = KNeighborsClassifier()
     
+    estimator_hard_vc = VotingClassifier(
+        estimators=[('lr', estimator_lr), ('rf', estimator_rf), ('svc', estimator_svc), ('dt', estimator_dt), ('kn', estimator_kn)],
+        voting='hard'
+    )
+    
+    estimator_soft_vc = VotingClassifier(
+        estimators=[('lr', estimator_lr), ('rf', estimator_rf), ('svc', estimator_svc), ('dt', estimator_dt), ('kn', estimator_kn)],
+        voting='soft'
+    )
+
     
     # Initiaze the hyperparameters for each dictionary
     if classifier_model == "LogisticRegression":
@@ -710,7 +721,7 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_1),
+            ('classifier', estimator_lr),
         ])
         
         
@@ -731,7 +742,7 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_2),
+            ('classifier', estimator_dt),
         ])
 
     elif classifier_model == "RandomForestClassifier":
@@ -744,7 +755,7 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_3),
+            ('classifier', estimator_rf),
         ])
         
     elif classifier_model == "SVC":
@@ -758,18 +769,7 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
                 
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_4),
-        ])
-    
-    elif classifier_model == "MultinomialNB":
-        
-        param_grid = {
-            'classifier__alpha': [0, 10, 100]
-        }
-        
-        full_pipeline = Pipeline([
-            ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_5),
+            ('classifier', estimator_svc),
         ])
         
     elif classifier_model == "KNeighborsClassifier":
@@ -780,42 +780,57 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_6),
+            ('classifier', estimator_kn),
         ])
         
+    elif classifier_model == "HardVotingClassifier":
+        
+        param_grid = {}
+        
+        full_pipeline = Pipeline([
+            ('preprocessing', full_pipeline_transformer),
+            ('classifier', estimator_hard_vc),
+        ])
+        
+    elif classifier_model == "SoftVotingClassifier":
+        
+        param_grid = {}
+        
+        full_pipeline = Pipeline([
+            ('preprocessing', full_pipeline_transformer),
+            ('classifier', estimator_soft_vc),
+        ])
+
+
     else:
         param_grid = [
             {
-                'classifier': [estimator_1], 
+                'classifier': [estimator_lr], 
                 'classifier__solver': ['lbfgs', 'saga'], 
                 'classifier__max_iter': [1000],
                 'classifier__random_state': [0, 42], 
                 'classifier__multi_class': ['auto', 'multinomial'] 
             },
             {
-                'classifier': [estimator_2], 
+                'classifier': [estimator_dt], 
                 'classifier__criterion': ['gini'], 
                 'classifier__max_depth': [5,10,25,None],
                 'classifier__min_samples_split': [2,5,10], 
                 'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
             },
             {
-                'classifier': [estimator_3], 
+                'classifier': [estimator_rf], 
                 'classifier__n_estimators': [10, 50, 100, 250], 
                 'classifier__max_depth': [5,10,20],
                 'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
             },
             {
-                'classifier': [estimator_4],
+                'classifier': [estimator_svc],
                 'classifier__kernel': ['linear', 'rbf', 'poly'],
                 'classifier__gamma': ['auto'],
             },
             {
-                'classifier': [estimator_5], 
-                'classifier__alpha': [0, 10, 100]
-            },
-            {
-                'classifier': [estimator_6], 
+                'classifier': [estimator_kn], 
                 'classifier__n_neighbors': [2,5,10,25,50]
             }
         ]        
@@ -851,8 +866,9 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
     ax = plt.subplot()
     sns.heatmap(cm, annot=True, ax = ax); #annot=True to annotate cells
 
-    # ROC AUC CURVE PLOT
-    plot_roc_curve(gs, X_test, y_test) 
-    plt.show()
+    if classifier_model != "HardVotingClassifier":
+        # ROC AUC CURVE PLOT
+        plot_roc_curve(gs, X_test, y_test) 
+        plt.show()
         
-    return gs
+    return gs.best_estimator_
