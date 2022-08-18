@@ -1,10 +1,41 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Aug 17 23:21:42 2022
+# GROUP PROJECT
 
-@author: gmi_r
+## Welcome to the COMP 247 Project - Supervising Learning Project - KSI Collisions Toronto
+
+Relevant Information:
+
+    College: Centennial College
+    Program: Software Engineering Technology - Artificial Intelligence
+    Term: Summer 2022
+    Course: 22M --Supervised Learning (SEC. 001) - COMP247001_2022MW
+
+Group # 7
+
+Group Members
+
+    ., Ripudaman
+    Maria, Karan
+    Radmy, Mahpara Rafia
+    Saenz Huerta, Ronald
+    Sidhu, Manipal
+
+COMP 247 Project
+
+Group Project – Developing a predictive machine learning model (classifier) and deploy it as a web API for inference
+Dataset
+
+https://data.torontopolice.on.ca/datasets/TorontoPS::ksi/about
+Models:
+
+    Logistic Regression
+    Random Forest Classifier
+    Decision Tree Classifier
+    KNeighbors Classifier
+    SVC
+    
 """
-
 
 import pandas as pd
 import joblib

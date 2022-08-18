@@ -60,20 +60,15 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, VotingClassifier
 from scipy.stats import randint
 
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.impute import KNNImputer
+
 from sklearn.utils import resample
 from sklearn import tree
-
-from imblearn.combine import SMOTETomek
-from imblearn.combine import SMOTEENN
-
 
 import joblib
 
@@ -103,7 +98,8 @@ SLProjectLib.analyze_data_unique_values(data, True)
 # Trying to find corelation in the dataset
 corr_matrix = data.corr()
 sns.heatmap(corr_matrix)
-
+plt.title(f'Correlation Matrix', fontsize = 20)
+plt.show()
 
 # preprocessing - clean data 
 data = SLProjectLib.cleaning_data_values(data)
@@ -119,6 +115,9 @@ SLProjectLib.analyze_data_unique_values(data, True)
 # Trying to find corelation in the dataset
 corr_matrix = data.corr()
 sns.heatmap(corr_matrix)
+plt.title(f'Correlation Matrix', fontsize = 20)
+plt.show()
+
 
 corr_matrix = data.corr()
 corr_matrix["ACCLASS"].sort_values(ascending=False)
@@ -175,8 +174,11 @@ Y_group.value_counts()
 
 data.groupby('ACCLASS').size().plot(kind='pie',
                                        y = "ACCLASS",
-                                       label = "Type",
+                                       label = "ACCLASS",
                                        autopct='%1.1f%%')
+plt.title(f'Balance Data group by Target Class', fontsize = 20)
+plt.show()
+
 
 ##################################################################
 ## 1. Up-sample Minority Class
@@ -205,8 +207,10 @@ data_upsampled["ACCLASS"].value_counts()
 
 data_upsampled.groupby('ACCLASS').size().plot(kind='pie',
                                                y = "ACCLASS",
-                                               label = "Type",
+                                               label = "ACCLASS",
                                                autopct='%1.1f%%')
+plt.title(f'Balance Data with Up-sample Minority Class', fontsize = 20)
+plt.show()
 
 
 full_pipeline_transformer, X_group_upsampled, Y_group_upsampled, X_train, X_test, y_train, y_test = SLProjectLib.get_pipeline_x_y(data_upsampled, 0.20)
@@ -281,6 +285,8 @@ data_downsampled.groupby('ACCLASS').size().plot(kind='pie',
                                                y = "ACCLASS",
                                                label = "Type",
                                                autopct='%1.1f%%')
+plt.title(f'Balance Data with Down-sample Minority Class', fontsize = 20)
+plt.show()
 
 
 full_pipeline_transformer, X_group_downsampled, Y_group_downsampled, X_train, X_test, y_train, y_test = SLProjectLib.get_pipeline_x_y(data_downsampled, 0.20)
@@ -342,8 +348,6 @@ print(full_pipeline_transformer_d, X_group_d, Y_group_d, X_train_d, X_test_d, y_
 
 
 # Testing models
-
-import SLProjectLib
 
 #### Logistic Regression
 #  By Maria, Karan

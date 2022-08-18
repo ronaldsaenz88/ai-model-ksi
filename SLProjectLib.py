@@ -147,8 +147,8 @@ def cleaning_data_initial(data):
     drop_columns+=['NEIGHBOURHOOD', 'DIVISION']
     # A lot of null values          
     drop_columns+=["OFFSET", "PEDTYPE", "PEDACT", "PEDCOND", "CYCLISTYPE", "CYCACT", "CYCCOND", "FATAL_NO"]
-                   
-    drop_columns+=['TIME', 'YEAR', 'DATE', 'WARDNUM', 'INITDIR', 'INVAGE']
+    # Own analysis
+    drop_columns+=['TIME', 'YEAR', 'DATE', 'WARDNUM', 'INITDIR', 'INVAGE', 'INJURY']
       
     # DROP
     data = data.drop(drop_columns, axis=1)
@@ -578,10 +578,10 @@ def cleaning_data_values(data):
     # Column: INJURY 
     
     # Replace in existing categories
-    data['INJURY'].replace('Minimal', 'Minor', inplace=True)
+    #data['INJURY'].replace('Minimal', 'Minor', inplace=True)
     
     # Replace all null values with Non-Fatal Injury category
-    data['INJURY'].replace(np.nan, 'None', inplace=True)
+    #data['INJURY'].replace(np.nan, 'None', inplace=True)
     
     
     # -----------------------------------------------------------------------------------------------------
@@ -822,10 +822,14 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
     cm = confusion_matrix(gs.predict(X_test), y_test)
     ax = plt.subplot()
     sns.heatmap(cm, annot=True, ax = ax); #annot=True to annotate cells
+    plt.title(f'Confusion Matrix - Model {classifier_model}', fontsize = 20)
+    plt.show()
 
     if classifier_model != "HardVotingClassifier":
         # ROC AUC CURVE PLOT
-        plot_roc_curve(gs, X_test, y_test) 
+        plot_roc_curve(gs, X_test, y_test)        
+        plt.title(f'ROC AUC CURVE - Model {classifier_model}', fontsize = 20)
         plt.show()
+
         
     return gs.best_estimator_

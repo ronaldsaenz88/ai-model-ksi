@@ -1,0 +1,343 @@
+Stas of the project 
+
+-------------------------------------------------------------- data initial ------------------------------------------------------------------------------
+
+ Data Shape
+(16860, 57)
+
+
+Data - Null Values String
+
+Column: X  - Len: 0
+Column: Y  - Len: 0
+Column: INDEX_  - Len: 0
+Column: ACCNUM  - Len: 0
+Column: YEAR  - Len: 0
+Column: DATE  - Len: 0
+Column: TIME  - Len: 0
+Column: HOUR  - Len: 0
+Column: STREET1  - Len: 0
+Column: STREET2  - Len: 1510
+Column: OFFSET  - Len: 14114
+Column: ROAD_CLASS  - Len: 497
+Column: DISTRICT  - Len: 141
+Column: WARDNUM  - Len: 196
+Column: DIVISION  - Len: 196
+Column: LATITUDE  - Len: 0
+Column: LONGITUDE  - Len: 0
+Column: LOCCOORD  - Len: 105
+Column: ACCLOC  - Len: 5450
+Column: TRAFFCTL  - Len: 29
+Column: VISIBILITY  - Len: 18
+Column: LIGHT  - Len: 0
+Column: RDSFCOND  - Len: 23
+Column: ACCLASS  - Len: 0
+Column: IMPACTYPE  - Len: 4
+Column: INVTYPE  - Len: 12
+Column: INVAGE  - Len: 0
+Column: INJURY  - Len: 1612
+Column: FATAL_NO  - Len: 16147
+Column: INITDIR  - Len: 4894
+Column: VEHTYPE  - Len: 2813
+Column: MANOEUVER  - Len: 7233
+Column: DRIVACT  - Len: 8398
+Column: DRIVCOND  - Len: 8396
+Column: PEDTYPE  - Len: 14074
+Column: PEDACT  - Len: 14081
+Column: PEDCOND  - Len: 14025
+Column: CYCLISTYPE  - Len: 16160
+Column: CYCACT  - Len: 16153
+Column: CYCCOND  - Len: 16154
+Column: PEDESTRIAN  - Len: 10033
+Column: CYCLIST  - Len: 15081
+Column: AUTOMOBILE  - Len: 1552
+Column: MOTORCYCLE  - Len: 15476
+Column: TRUCK  - Len: 15818
+Column: TRSN_CITY_VEH  - Len: 15849
+Column: EMERG_VEH  - Len: 16829
+Column: PASSENGER  - Len: 10498
+Column: SPEEDING  - Len: 14575
+Column: AG_DRIV  - Len: 8157
+Column: REDLIGHT  - Len: 15451
+Column: ALCOHOL  - Len: 16121
+Column: DISABILITY  - Len: 16392
+Column: POLICE_DIVISION  - Len: 0
+Column: HOOD_ID  - Len: 0
+Column: NEIGHBOURHOOD  - Len: 0
+Column: ObjectId  - Len: 0
+
+
+### Cleaning Data - Replace values, Drop columns
+
+
+	# Extract month from date and remove date column
+
+
+	#BINARY COLUMNS 0: NULL 1: YES
+	binary_columns=['CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER']
+
+
+
+	# Drop columns that are not required 
+
+	# A lot of different values 
+	drop_columns=['INDEX_','ObjectId','ACCNUM', 'X', 'Y','STREET1', 'STREET2', 'LATITUDE', 'LONGITUDE']
+
+	# Duplicated with HOOD_ID and POLICE_DIVISION         
+	drop_columns+=['NEIGHBOURHOOD', 'DIVISION']
+
+	# A lot of null values          
+	drop_columns+=["OFFSET", "PEDTYPE", "PEDACT", "PEDCOND", "CYCLISTYPE", "CYCACT", "CYCCOND", "FATAL_NO"]
+
+	# Own analysis
+	drop_columns+=['TIME', 'YEAR', 'DATE', 'WARDNUM', 'INITDIR', 'INVAGE', 'INJURY']
+
+	# DROP
+	data = data.drop(drop_columns, axis=1)
+
+	# Drop columns with null count greater than 40 % .
+	data = data.dropna(axis=1,thresh=(data.shape[0]*0.6))
+
+
+### Cleaning Data - Replace values
+Replace values to similar values
+
+
+CORRELATIONSHIP WITH ACCLASS
+
+ACCLASS            1.000000
+TRUCK              0.114711
+PEDESTRIAN         0.100861
+SPEEDING           0.089580
+TRSN_CITY_VEH      0.048213
+ALCOHOL            0.021518
+HOOD_ID            0.015462
+POLICE_DIVISION    0.007411
+REDLIGHT          -0.000108
+month             -0.001364
+PASSENGER         -0.003197
+DISABILITY        -0.004044
+MOTORCYCLE        -0.012923
+EMERG_VEH         -0.015988
+AG_DRIV           -0.029194
+HOUR              -0.037810
+CYCLIST           -0.078454
+AUTOMOBILE        -0.084198
+Name: ACCLASS, dtype: float64
+
+
+-------------------------------------------------------------- pre processing ----------------------------------------------------------------------------
+
+
+Get Stats of the all data to check balance
+
+****************************************************************************************************
+** Imbalanced data
+****************************************************************************************************
+
+All Data Accuracy: 0.8646377770426729
+All Data Precision: 0.05207835642618251
+All Data Recall: 0.6374269005847953
+All Data ROC AUC Score: 0.7523322939754811
+
+Show the balance data with target Class
+0    13022
+1     2093
+Name: ACCLASS, dtype: int64
+
+****************************************************************************************************
+** Balanced data with Up-sample Minority Class
+****************************************************************************************************
+
+All Data Accuracy: 0.6719781907541085
+All Data Precision: 0.6896022116418369
+All Data Recall: 0.6661226911950152
+All Data ROC AUC Score: 0.6721921264619507
+
+
+Show the balance data with target Class
+0    13022
+1    13022
+Name: ACCLASS, dtype: int64
+
+
+****************************************************************************************************
+** Balanced data with Down-sample Minority Class
+****************************************************************************************************
+
+All Data Accuracy: 0.6731963688485427
+All Data Precision: 0.6779741997133302
+All Data Recall: 0.6715570279223853
+All Data ROC AUC Score: 0.6732121849693933
+
+
+Show the balance data with target Class
+0    2093
+1    2093
+Name: ACCLASS, dtype: int64
+
+
+
+
+-------------------------------------------------------------- models ------------------------------------------------------------------------------------
+
+
+****************************************************************************************************
+** Model LogisticRegression loaded   --  Up-sample
+****************************************************************************************************
+
+Test Precision: 0.6658116526200073
+Test Recall: 0.6864374763883642
+Test F1 Score: 0.6759672619047619
+Test ROC AUC Score: 0.6652327897164303
+Test Accuracy Score =  0.6655788059128431
+Test Confusion Matrix = 
+ [[1650  912]
+ [ 830 1817]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.67      0.64      0.65      2562
+           1       0.67      0.69      0.68      2647
+
+    accuracy                           0.67      5209
+   macro avg       0.67      0.67      0.67      5209
+weighted avg       0.67      0.67      0.67      5209
+
+
+****************************************************************************************************
+** Model RandomForestClassifier loaded --  Down-sample
+****************************************************************************************************
+
+Test Precision: 0.7871396895787139
+Test Recall: 0.8432304038004751
+Test F1 Score: 0.8142201834862386
+Test ROC AUC Score: 0.8065072882311728
+Test Accuracy Score =  0.8066825775656324
+Test Confusion Matrix = 
+ [[321  96]
+ [ 66 355]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.83      0.77      0.80       417
+           1       0.79      0.84      0.81       421
+
+    accuracy                           0.81       838
+   macro avg       0.81      0.81      0.81       838
+weighted avg       0.81      0.81      0.81       838
+
+
+****************************************************************************************************
+** Model DecisionTreeClassifier loaded --  Up-sample
+****************************************************************************************************
+
+Test Precision: 0.6730369754881596
+Test Recall: 0.612013600302229
+Test F1 Score: 0.6410763751483973
+Test ROC AUC Score: 0.6524158555765633
+Test Accuracy Score =  0.6517565751583797
+Test Confusion Matrix = 
+ [[1775  787]
+ [1027 1620]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.63      0.69      0.66      2562
+           1       0.67      0.61      0.64      2647
+
+    accuracy                           0.65      5209
+   macro avg       0.65      0.65      0.65      5209
+weighted avg       0.65      0.65      0.65      5209
+
+
+****************************************************************************************************
+** Model KNeighborsClassifier loaded --  Down-sample
+****************************************************************************************************
+
+Test Precision: 0.7701149425287356
+Test Recall: 0.6365795724465558
+Test F1 Score: 0.6970091027308193
+Test ROC AUC Score: 0.7223665248323906
+Test Accuracy Score =  0.7219570405727923
+Test Confusion Matrix = 
+ [[337  80]
+ [153 268]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.69      0.81      0.74       417
+           1       0.77      0.64      0.70       421
+
+    accuracy                           0.72       838
+   macro avg       0.73      0.72      0.72       838
+weighted avg       0.73      0.72      0.72       838
+
+
+****************************************************************************************************
+** Model SVC loaded --  Down-sample
+****************************************************************************************************
+
+Test Precision: 0.6277056277056277
+Test Recall: 0.6888361045130641
+Test F1 Score: 0.6568516421291052
+Test ROC AUC Score: 0.6381830402661244
+Test Accuracy Score =  0.6384248210023866
+Test Confusion Matrix = 
+ [[245 172]
+ [131 290]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.65      0.59      0.62       417
+           1       0.63      0.69      0.66       421
+
+    accuracy                           0.64       838
+   macro avg       0.64      0.64      0.64       838
+weighted avg       0.64      0.64      0.64       838
+
+
+****************************************************************************************************
+** Model HardVotingClassifier loaded --  Down-sample
+****************************************************************************************************
+
+Test Precision: 0.7314410480349345
+Test Recall: 0.7957244655581948
+Test F1 Score: 0.7622298065984072
+Test ROC AUC Score: 0.7503802183906082
+Test Accuracy Score =  0.7505966587112172
+Test Confusion Matrix = 
+ [[294 123]
+ [ 86 335]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.77      0.71      0.74       417
+           1       0.73      0.80      0.76       421
+
+    accuracy                           0.75       838
+   macro avg       0.75      0.75      0.75       838
+weighted avg       0.75      0.75      0.75       838
+
+
+****************************************************************************************************
+** Model SoftVotingClassifier loaded --  Down-sample
+****************************************************************************************************
+
+Test Precision: 0.7782608695652173
+Test Recall: 0.850356294536817
+Test F1 Score: 0.8127128263337116
+Test ROC AUC Score: 0.8028759889950272
+Test Accuracy Score =  0.8031026252983293
+Test Confusion Matrix = 
+ [[315 102]
+ [ 63 358]]
+Test Classification Report = 
+               precision    recall  f1-score   support
+
+           0       0.83      0.76      0.79       417
+           1       0.78      0.85      0.81       421
+
+    accuracy                           0.80       838
+   macro avg       0.81      0.80      0.80       838
+weighted avg       0.81      0.80      0.80       838
