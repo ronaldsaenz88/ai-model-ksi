@@ -55,7 +55,9 @@ from sklearn.svm import SVC
 from sklearn.svm import SVR
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
+from sklearn.impute import KNNImputer
 from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
@@ -64,11 +66,14 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, VotingClassifier
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.compose import ColumnTransformer
+
+from imblearn.pipeline import make_pipeline
+from imblearn.combine import SMOTEENN
+from imblearn.ensemble import BalancedRandomForestClassifier 
+
 from scipy.stats import randint
 
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.impute import KNNImputer
 
 
 ## Functions
@@ -639,23 +644,23 @@ def cleaning_data_values(data):
     # Drop duplicates values - rows    
     data = data.drop_duplicates()
     data.nunique(axis=0)
-    
 
     return data
 
 
-
 ### Data Preprocessing - Get pipeline transformer, and X, Y train ant test data.
 
-def get_pipeline_x_y(data=None, test_size=0.20):
+def get_pipeline_x_y(data=None, test_size=0.20, features_columns_categorical_selected=None, features_columns_numbers_selected=None):
+    # "INJURY",
     
-    features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "INJURY", "VEHTYPE"]
+    features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "VEHTYPE"]
     features_columns_numbers = ['HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
 
-
-    #    ('imputer', SimpleImputer(missing_values=np.nan, strategy='constant', fill_value='missing')),
-    #('imputer', KNNImputer(n_neighbors=2)),
-    
+    if features_columns_categorical_selected is not None:
+        features_columns_categorical = features_columns_categorical_selected
+        
+    if features_columns_numbers_selected is not None:
+        features_columns_numbers = features_columns_numbers_selected
         
     categorical_pipeline = Pipeline(steps=[
         ('imputer', SimpleImputer(missing_values=np.nan, strategy='constant', fill_value='missing')),
@@ -689,13 +694,12 @@ def get_pipeline_x_y(data=None, test_size=0.20):
 ### Get Best Model - Logistic Regression, Decision Tree, Random Forest Classifier, SVC, K-Neighbors Classifier
 
 def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X_test, y_train, y_test):
-    
-    
+
     # Initialze the estimators
     estimator_lr = LogisticRegression(random_state=42)
     estimator_dt = DecisionTreeClassifier(random_state=42)
-    estimator_rf = RandomForestClassifier(random_state=42)
-    estimator_svc = SVC(probability=True, random_state=42)
+    estimator_rf = RandomForestClassifier(random_state=42)  # class_weight='balanced'
+    estimator_svc = SVC(probability=True, random_state=42) # class_weight='balanced', 
     estimator_kn = KNeighborsClassifier()
     
     estimator_hard_vc = VotingClassifier(
@@ -708,10 +712,9 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
         voting='soft'
     )
 
-    
     # Initiaze the hyperparameters for each dictionary
     if classifier_model == "LogisticRegression":
-
+        
         param_grid = {
             'classifier__solver': ['lbfgs', 'saga'], 
             'classifier__max_iter': [100, 1000],
@@ -724,46 +727,39 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
             ('classifier', estimator_lr),
         ])
         
-        
     elif classifier_model == "DecisionTreeClassifier":
-        
-        #'classifier__min_samples_split': [2, 5, 10, 20], 
-        #'classifier__min_samples_leaf': [1, 5, 10], 
-        #'classifier__max_leaf_nodes': [None, 5, 10, 20],
-            
+           
         param_grid = {
             'classifier__criterion': ['gini', 'entropy'], 
             'classifier__max_depth': [2 ,5, 10, 25, None],
             'classifier__min_samples_split': [2],
             'classifier__min_samples_leaf': [1],
             'classifier__max_leaf_nodes': [20],
-            'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
+            'classifier__class_weight': [None, 'balanced', {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
         }
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
             ('classifier', estimator_dt),
         ])
-
-    elif classifier_model == "RandomForestClassifier":
         
+    elif classifier_model == "RandomForestClassifier":
+
         param_grid = {
             'classifier__n_estimators': [10, 50, 100, 250], 
             'classifier__max_depth': [5,10,20],
-            'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
+            'classifier__class_weight': [None, 'balanced', {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
         }
         
         full_pipeline = Pipeline([
             ('preprocessing', full_pipeline_transformer),
             ('classifier', estimator_rf),
         ])
-        
+
     elif classifier_model == "SVC":
         
         param_grid = {
             'classifier__kernel': ['linear', 'rbf','poly'],
-            #'classifier__C': [0.01, 0.1, 1, 10, 100],
-            #'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
             'classifier__gamma': ['auto'],
         }
                 
@@ -800,51 +796,12 @@ def get_best_model(data, classifier_model, full_pipeline_transformer, X_train, X
             ('preprocessing', full_pipeline_transformer),
             ('classifier', estimator_soft_vc),
         ])
-
-
-    else:
-        param_grid = [
-            {
-                'classifier': [estimator_lr], 
-                'classifier__solver': ['lbfgs', 'saga'], 
-                'classifier__max_iter': [1000],
-                'classifier__random_state': [0, 42], 
-                'classifier__multi_class': ['auto', 'multinomial'] 
-            },
-            {
-                'classifier': [estimator_dt], 
-                'classifier__criterion': ['gini'], 
-                'classifier__max_depth': [5,10,25,None],
-                'classifier__min_samples_split': [2,5,10], 
-                'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
-            },
-            {
-                'classifier': [estimator_rf], 
-                'classifier__n_estimators': [10, 50, 100, 250], 
-                'classifier__max_depth': [5,10,20],
-                'classifier__class_weight': [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
-            },
-            {
-                'classifier': [estimator_svc],
-                'classifier__kernel': ['linear', 'rbf', 'poly'],
-                'classifier__gamma': ['auto'],
-            },
-            {
-                'classifier': [estimator_kn], 
-                'classifier__n_neighbors': [2,5,10,25,50]
-            }
-        ]        
-        
-        full_pipeline = Pipeline([
-            ('preprocessing', full_pipeline_transformer),
-            ('classifier', estimator_1),
-        ])
     
     print("***********************************************************")
     print("Get Best Estimator/Params of the Model for ", classifier_model)   
     
     
-    gs = GridSearchCV(full_pipeline, param_grid, cv=3, n_jobs=-1, scoring='roc_auc') 
+    gs = GridSearchCV(full_pipeline, param_grid, cv=10, n_jobs=-1, scoring='roc_auc') 
     gs.fit(X_train, y_train)
 
         

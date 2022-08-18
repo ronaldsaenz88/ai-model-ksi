@@ -93,6 +93,14 @@ def scores(model_name):
             print("***********************************************************")
             print(f'Get scores for model {model_name}:')
             
+            if model_name in ["DecisionTreeClassifier", "LogisticRegression"]:
+                X_test = X_test_us
+                y_test = y_test_us
+            else:
+                X_test = X_test_ds
+                y_test = y_test_ds
+                
+                
             y_pred = models_loaded[model_name].predict(X_test)
             
             accuracy = accuracy_score(y_test, y_pred)
@@ -128,6 +136,15 @@ if __name__ == '__main__':
   
     deploy_folder = r'deploy'
     
+    # Load data
+    X_test_ds = pd.read_csv(path.join(deploy_folder,"x_test_data_ds_group7.csv"))
+    y_test_ds = pd.read_csv(path.join(deploy_folder,"y_test_data_ds_group7.csv"))
+    
+    X_test_us = pd.read_csv(path.join(deploy_folder,"x_test_data_us_group7.csv"))
+    y_test_us = pd.read_csv(path.join(deploy_folder,"y_test_data_us_group7.csv"))
+    
+    
+    # load all models:        
     models = {
         "LogisticRegression": "LR_model_group7.pkl",
         "RandomForestClassifier": "RF_model_group7.pkl", 
@@ -138,35 +155,18 @@ if __name__ == '__main__':
         "SoftVotingClassifier": "SV_model_group7.pkl"
     }
     
-    
-    #cols_pkl = 'group4_model_columns.pkl'
-    
-    X_train = pd.read_csv(path.join(deploy_folder,"x_train_data_group7.csv"))
-    y_train = pd.read_csv(path.join(deploy_folder,"y_train_data_group7.csv"))
-    X_test = pd.read_csv(path.join(deploy_folder,"x_test_data_group7.csv"))
-    y_test = pd.read_csv(path.join(deploy_folder,"y_test_data_group7.csv"))
-    
-    
-
-
-    # load all models:
     models_loaded = {}
     for model_name in (models):
         models_loaded[model_name] = joblib.load(path.join(deploy_folder, models[model_name]))
         print(f'Model {model_name} loaded')
         
-    model_columns = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "INJURY", "VEHTYPE", 'HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
-                     
-    #'Elapsed_Days_Before_Reported', 'Primary_Offence', 'Occurrence_Year',
-    #   'Occurrence_DayOfWeek', 'Occurrence_DayOfYear', 'Occurrence_Hour',
-    #   'Division', 'City', 'Hood_ID', 'Premises_Type', 'Bike_Make',
-    #   'Bike_Model', 'Bike_Type']
-    
-    
-    #features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "INJURY", "VEHTYPE"]
-    #features_columns_numbers = ['HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
 
-
+    # name of columns
+    features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", "TRAFFCTL", "VISIBILITY", "LIGHT", "RDSFCOND", "IMPACTYPE", "INVTYPE", "VEHTYPE"]
+    features_columns_numbers = ['HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
+    model_columns = features_columns_categorical + features_columns_numbers
+                
+    
     # model_columns = joblib.load(path.join(project_folder, cols_pkl))
     # print ('Model columns loaded')
     
