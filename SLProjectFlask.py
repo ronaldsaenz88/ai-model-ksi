@@ -167,9 +167,6 @@ if __name__ == '__main__':
     model_columns = features_columns_categorical + features_columns_numbers
                 
     
-    # model_columns = joblib.load(path.join(project_folder, cols_pkl))
-    # print ('Model columns loaded')
-    
     
     #####################################################################################################
     # API FLASK

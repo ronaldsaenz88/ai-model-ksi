@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>GROUP PROJECT - Supervised Learning - Group 7</title>
+</head>
+<body>
+    <h1>GROUP PROJECT  - Supervised Learning</h1>
+    <h2>Group 7</h2>
+    <div id="models">
+        <button class="button active" id="lr" style="vertical-align:middle"  >Logistic Regression</button><br/>
+        <button class="button" id="rf" style="vertical-align:middle"  >Random Forest</button><br/>
+        <button class="button" id="dt" style="vertical-align:middle"  >Decision Tree</button><br/>
+        <button class="button" id="kn" style="vertical-align:middle" >KNeighbors</button><br/>
+        <button class="button" id="svm" style="vertical-align:middle" >SVM</button><br/>
+        <button class="button" id="hv" style="vertical-align:middle" >Hard Voting</button><br/>
+        <button class="button" id="sv" style="vertical-align:middle" >Soft Voting</button><br/>
+        
+        <input type="hidden" id="model" value="lr">
+    </div>
+    <br>
+    <div id="fields">
+        <label>ROAD_CLASS: </label>
+        <input type="text" id="ROAD_CLASS" list="ROAD_CLASS_list">
+        <label>DISTRICT: </label>
+        <input type="text" id="DISTRICT" list="DISTRICT_list">
+        <label>LOCCOORD: </label>
+        <input type="text" id="LOCCOORD" list="LOCCOORD_list">
+        <label>ACCLOC: </label>
+        <input type="text" id="ACCLOC" list="ACCLOC_list">
+        <label>TRAFFCTL: </label>
+        <input type="text" id="TRAFFCTL" list="TRAFFCTL_list">
+        <label>VISIBILITY: </label>
+        <input type="text" id="VISIBILITY" list="VISIBILITY_list">
+        <label>LIGHT: </label>
+        <input type="text" id="LIGHT" list="LIGHT_list">
+        <label>RDSFCOND: </label>
+        <input type="text" id="RDSFCOND" list="RDSFCOND_list">
+        <label>IMPACTYPE: </label>
+        <input type="text" id="IMPACTYPE" list="IMPACTYPE_list">
+        <label>INVTYPE: </label>
+        <input type="text" id="INVTYPE" list="INVTYPE_list">
+        <label>VEHTYPE: </label>
+        <input type="text" id="VEHTYPE" list="VEHTYPE_list">
+
+
+        <label>MOTORCYCLE: </label>
+        <input type="text" id="MOTORCYCLE" list="MOTORCYCLE_list">
+        <label>CYCLIST: </label>
+        <input type="text" id="CYCLIST" list="CYCLIST_list">
+        <label>SPEEDING: </label>
+        <input type="text" id="SPEEDING" list="SPEEDING_list">
+        <label>REDLIGHT: </label>
+        <input type="text" id="REDLIGHT" list="REDLIGHT_list">
+        <label>DISABILITY: </label>
+        <input type="text" id="DISABILITY" list="DISABILITY_list">
+        <label>TRUCK: </label>
+        <input type="text" id="TRUCK" list="TRUCK_list">
+        <label>TRSN_CITY_VEH: </label>
+        <input type="text" id="TRSN_CITY_VEH" list="TRSN_CITY_VEH_list">
+        <label>EMERG_VEH: </label>
+        <input type="text" id="EMERG_VEH" list="EMERG_VEH_list">
+        <label>AG_DRIV: </label>
+        <input type="text" id="AG_DRIV" list="AG_DRIV_list">
+        <label>ALCOHOL: </label>
+        <input type="text" id="ALCOHOL" list="ALCOHOL_list">
+        <label>PEDESTRIAN: </label>
+        <input type="text" id="PEDESTRIAN" list="PEDESTRIAN_list">
+        <label>PASSENGER: </label>
+        <input type="text" id="PASSENGER" list="PASSENGER_list">
+
+        <label>HOUR: </label>
+        <input type="text" id="HOUR" list="HOUR_list">
+        <label>AUTOMOBILE: </label>
+        <input type="text" id="AUTOMOBILE" list="AUTOMOBILE_list">
+        <label>month: </label>
+        <input type="text" id="month" list="month_list">
+        <label>POLICE_DIVISION: </label>
+        <input type="text" id="POLICE_DIVISION" value="">
+        <label>HOOD_ID: </label>
+        <input type="text" id="HOOD_ID" value="">
+
+    </div>
+    <br>
+    <br>
+    <button class="button" id="scores" style="vertical-align:middle" >Scores</button>
+    <button class="button" id="mkp" style="vertical-align:middle" >Make Prediction</button>
+    <br>
+    <br>
+    <label>Results: </label>
+    <div id="results"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body> 
+</html>

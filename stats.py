@@ -52,7 +52,7 @@ features_columns_categorical = ["ROAD_CLASS", "DISTRICT", "LOCCOORD", "ACCLOC", 
 features_columns_numbers = ['HOUR', 'CYCLIST','AUTOMOBILE','MOTORCYCLE','TRUCK','TRSN_CITY_VEH','EMERG_VEH','SPEEDING','AG_DRIV','REDLIGHT','ALCOHOL','DISABILITY','PEDESTRIAN','PASSENGER', 'POLICE_DIVISION', 'HOOD_ID', 'month']
 features_columns = features_columns_categorical + features_columns_numbers
     
-
+print(len(features_columns))
 
 
 deploy_folder = r'deploy'
@@ -106,6 +106,8 @@ for model_name in (models):
     class_report = classification_report(y_test, y_pred)      
 
     # print(f'accuracy={accuracy}  precision={precision}  recall={recall}  f1={f1}  roc_auc={roc_auc}  confussion_matrix={conf_matrix} ')
+    
+    print(models_loaded[model_name])
     
     
     # Test data performance
