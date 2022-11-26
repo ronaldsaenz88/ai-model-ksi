@@ -52,10 +52,10 @@ from flask_cors import CORS, cross_origin
 
 # Your API definition
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-app.config['CORS_HEADERS'] = 'Content-Type'
+#app.config['CORS_HEADERS'] = 'Content-Type'
 
 #####################################################################################################
 # Load Files and models
@@ -97,7 +97,7 @@ model_columns = features_columns_categorical + features_columns_numbers
 #####################################################################################################
 
 @app.route("/api/predict/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
-@cross_origin()
+#@cross_origin()
 def predict(model_name):
     if models_loaded:
         try:
@@ -113,7 +113,7 @@ def predict(model_name):
             print('Prediction: ', prediction)
             
             res = jsonify({"prediction": str(prediction)})
-            res.headers.add('Access-Control-Allow-Origin', '*')
+            #res.headers.add('Access-Control-Allow-Origin', '*')
             return res
         except:
             return jsonify({'trace': traceback.format_exc()})
@@ -126,7 +126,7 @@ def predict(model_name):
 #####################################################################################################
 
 @app.route("/api/scores/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
-@cross_origin()
+#@cross_origin()
 def scores(model_name):
     if models_loaded:
         try:
@@ -159,7 +159,7 @@ def scores(model_name):
                             "roc_auc": roc_auc,
                             "confussion_matrix": str(conf_matrix)
                           })
-            res.headers.add('Access-Control-Allow-Origin', '*')
+            #res.headers.add('Access-Control-Allow-Origin', '*')
             return res
         except:
             return jsonify({'trace': traceback.format_exc()})
