@@ -53,6 +53,7 @@ from flask_cors import CORS, cross_origin
 # Your API definition
 app = Flask(__name__)
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 #####################################################################################################
 # Load Files and models
