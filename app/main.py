@@ -59,7 +59,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 # Load Files and models
 #####################################################################################################
 
-deploy_folder = r'/app/deploy'
+deploy_folder = r'deploy'
 
 # Load data
 X_test_ds = pd.read_csv(path.join(deploy_folder,"x_test_data_ds_group7.csv"))
