@@ -47,7 +47,7 @@ import sys
 from os import path
 from sklearn.metrics import *
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 
 # Your API definition
@@ -94,6 +94,7 @@ model_columns = features_columns_categorical + features_columns_numbers
 #####################################################################################################
 
 @app.route("/predict/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
+@cross_origin()
 def predict(model_name):
     if models_loaded:
         try:
@@ -122,6 +123,7 @@ def predict(model_name):
 #####################################################################################################
 
 @app.route("/scores/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
+@cross_origin()
 def scores(model_name):
     if models_loaded:
         try:
