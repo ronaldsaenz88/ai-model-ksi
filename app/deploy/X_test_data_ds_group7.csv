@@ -1,0 +1,839 @@
+ROAD_CLASS,DISTRICT,LOCCOORD,ACCLOC,TRAFFCTL,VISIBILITY,LIGHT,RDSFCOND,IMPACTYPE,INVTYPE,VEHTYPE,HOUR,CYCLIST,AUTOMOBILE,MOTORCYCLE,TRUCK,TRSN_CITY_VEH,EMERG_VEH,SPEEDING,AG_DRIV,REDLIGHT,ALCOHOL,DISABILITY,PEDESTRIAN,PASSENGER,POLICE_DIVISION,HOOD_ID,month
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,9,0,1,0,0,0,0,0,0,0,0,0,1,0,33,47,3
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Angle,Passenger,Other,0,0,1,0,0,0,0,0,1,1,0,0,0,1,43,137,12
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,0,53,95,11
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,0,0,0,0,1,0,14,84,8
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,11,0,1,0,0,0,0,0,0,0,0,0,0,1,14,78,1
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Dry,Rear End,Passenger,Other,17,0,1,0,0,0,0,0,1,0,0,0,0,1,54,61,4
+Minor Arterial,Scarborough,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,1,0,1,0,0,0,0,0,0,0,0,0,1,0,41,120,2
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,12,0,1,0,0,0,0,0,0,0,0,0,1,0,33,48,11
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,3,0,1,0,0,0,0,0,0,0,0,0,1,1,11,87,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Vehicle Owner,Other,18,0,1,0,0,0,0,0,1,0,0,0,1,0,13,94,6
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,0,0,41,124,11
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,9
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Van,19,0,1,0,0,0,0,0,0,0,0,0,1,0,14,81,11
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Snow,Daylight,Snow,Rear End,Vehicle Owner,Other,13,0,1,0,0,0,0,0,0,0,0,0,0,0,51,75,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Turning Movement,Driver,Automobile,9,0,1,0,0,0,0,0,1,1,0,0,0,1,31,27,10
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dawn,Dry,SMV Other,Driver,Automobile,7,0,1,0,0,0,0,0,0,0,0,0,0,0,22,11,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,1,23,1,9
+Collector,North York,Mid-Block,Other,Pedestrian Crossover,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,33,48,10
+Local,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,1,0,14,82,10
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,1,1,1,0,0,0,0,0,0,0,0,0,0,0,51,73,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,12,0,1,1,0,0,0,0,1,0,0,0,0,1,22,14,6
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Wet,Cyclist Collisions,Vehicle Owner,Other,7,1,0,0,1,0,0,0,0,0,0,0,0,0,52,78,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Angle,Truck Driver,Truck,3,0,1,0,1,0,0,0,1,1,0,0,0,1,52,76,4
+Collector,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,0,0,0,0,0,1,0,42,116,2
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Approaching,Driver,Automobile,0,0,1,0,0,0,0,0,1,0,0,0,0,1,41,121,3
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Wet,Pedestrian Collisions,Vehicle Owner,Other,21,0,1,0,0,0,0,0,1,0,0,0,1,0,54,120,3
+Expressway,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,9,0,1,1,0,0,0,0,0,0,0,0,0,0,33,42,10
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,16,0,1,1,0,0,0,0,0,0,0,0,0,0,41,119,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,17,1,1,0,0,0,0,1,1,0,0,0,0,0,42,132,8
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,16,0,1,1,0,0,0,0,1,0,0,0,0,0,55,63,7
+Major Arterial,North York,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,1,0,53,56,1
+Major Arterial,Scarborough,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Approaching,Truck Driver,Truck,9,0,1,0,0,0,0,0,0,0,0,0,0,0,41,125,12
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Driver,Van,11,0,1,0,0,0,0,0,1,1,0,0,0,0,32,40,2
+Major Arterial,North York,Intersection,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Passenger,Other,19,0,1,0,0,0,0,0,1,0,0,0,1,1,53,56,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,41,138,11
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Van,21,0,1,0,0,0,0,0,0,0,0,0,1,0,43,139,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,12,0,1,0,0,0,0,0,1,1,0,0,0,0,23,1,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,1,0,13,107,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,1,0,0,0,1,1,52,76,1
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,54,54,1
+Minor Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Approaching,Driver,Automobile,18,0,1,0,0,0,0,1,1,0,0,0,0,1,22,14,5
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Dark,Dry,Sideswipe,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,1,0,0,0,32,31,5
+Collector,Etobicoke York,Intersection,Other,Pedestrian Crossover,Clear,Daylight,Dry,Sideswipe,Driver,Automobile,10,0,1,0,0,0,0,1,1,0,0,0,0,0,22,18,2
+Minor Arterial,Toronto and East York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Other,Other,10,0,1,0,1,0,0,0,1,0,0,0,0,0,14,85,5
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Other,Pedestrian Collisions,Pedestrian,Other,2,0,1,0,1,0,0,0,0,0,0,0,1,0,14,85,2
+Minor Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,14,0,0,0,1,0,0,0,0,0,0,0,1,0,41,120,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Cyclist Collisions,Driver,Automobile,2,1,1,0,0,0,0,0,0,0,0,0,0,0,52,78,8
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,11,91,2
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,Approaching,Passenger,Other,20,0,1,0,0,0,0,1,1,0,0,0,0,1,33,43,5
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,12,0,1,0,0,0,0,0,1,1,0,0,0,1,51,77,1
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,1,11,89,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,9
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Dry,SMV Other,Motorcycle Passenger,2 Wheels,14,0,1,1,0,0,0,0,0,0,0,0,0,0,12,111,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,9,0,1,1,0,0,0,0,1,1,0,0,0,0,42,131,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,1,0,0,23,1,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,0,0,1,0,0,0,1,0,0,0,1,0,14,79,1
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,8,0,1,0,0,0,0,0,0,0,0,0,1,0,32,39,10
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,1,0,1,0,0,1,0,0,1,0,0,0,0,1,42,131,8
+Collector,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,9,1,1,0,0,0,0,0,1,0,0,0,0,0,54,58,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,1,0,0,0,1,0,53,98,4
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,0,0,1,0,0,0,0,0,0,0,1,0,51,71,12
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Pedestrian Collisions,Driver,Bus,18,0,1,0,0,1,0,0,0,0,0,0,1,0,42,130,9
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,16,1,1,0,0,0,0,0,1,0,0,0,0,0,52,77,8
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Driver,Automobile,13,0,1,0,0,0,0,0,1,1,0,0,0,1,33,46,12
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Other,6,0,0,0,0,0,0,0,0,0,0,0,1,0,31,21,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,0,0,1,0,0,0,1,0,0,0,1,0,31,22,2
+Minor Arterial,Etobicoke York,Mid-Block,Other,Pedestrian Crossover,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,0,1,0,0,0,1,0,23,1,8
+Major Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,15,0,1,1,0,0,0,1,1,0,0,0,0,0,42,118,9
+Local,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,32,51,6
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Pedestrian Crossover,Clear,Dark,Wet,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,1,0,0,0,0,0,1,0,0,0,0,0,13,94,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,15,0,1,1,0,0,0,0,1,0,0,0,0,0,23,1,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,13,107,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Passenger,Other,18,0,1,1,0,0,0,1,1,0,0,0,0,1,43,136,10
+Local,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,53,98,12
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,0,12,115,3
+Local,Toronto and East York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,9,0,1,0,0,0,0,0,0,0,0,0,0,1,14,78,7
+Collector,Etobicoke York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Approaching,Vehicle Owner,Other,10,0,1,0,0,1,0,0,0,0,1,0,0,1,23,4,10
+Collector,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,17,1,1,0,0,0,0,0,1,0,0,0,0,1,14,81,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,1,0,0,0,1,0,41,120,7
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Motorcycle Passenger,2 Wheels,2,0,0,1,0,0,0,0,0,0,1,0,0,0,14,93,7
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,43,139,11
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,SMV Other,Vehicle Owner,Other,3,0,1,0,0,0,0,0,0,0,0,0,0,0,55,70,11
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Other,Other,17,0,1,0,0,0,0,1,1,0,0,0,0,1,51,77,3
+Minor Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,1,0,0,0,0,0,0,0,0,0,1,0,13,31,8
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Approaching,Passenger,Other,10,0,1,0,0,0,0,0,1,0,0,0,0,1,22,16,1
+Local,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,9,0,0,0,0,0,0,0,1,0,0,0,1,0,54,59,2
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Rear End,Motorcycle Passenger,2 Wheels,21,0,1,1,0,0,0,1,1,0,0,0,0,1,42,131,8
+Local,Scarborough,Intersection,Non Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,9,1,1,0,0,0,0,0,0,0,0,0,0,0,42,129,11
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Van,22,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,11
+Minor Arterial,North York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Vehicle Owner,Other,22,0,1,1,0,0,0,1,1,0,0,0,0,0,32,51,8
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,0,11,88,7
+Major Arterial,Scarborough,Intersection,Other,Traffic Signal,Clear,Dawn,Dry,Angle,Vehicle Owner,Other,1,0,1,0,0,0,0,1,1,0,0,0,0,1,41,119,1
+Collector,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,12,0,1,0,0,0,0,1,1,0,0,0,0,0,55,70,6
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,21,0,1,0,0,0,0,0,0,0,0,0,1,0,43,139,4
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,14,0,1,0,0,0,0,0,1,0,0,0,0,0,31,26,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Passenger,Other,11,0,1,0,0,0,0,0,1,1,0,0,0,1,23,7,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,15,0,1,0,0,0,0,0,1,1,0,0,0,1,23,1,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,18,0,1,0,0,0,0,0,1,0,0,0,1,0,31,25,11
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Other,Pedestrian Collisions,Truck Driver,Truck,2,0,1,0,1,0,0,0,0,0,0,0,1,0,14,85,2
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Rear End,Driver,Automobile,23,0,1,0,0,0,0,0,1,0,0,0,0,1,23,1,4
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Approaching,Driver,Bus,0,0,1,0,0,1,0,1,1,0,1,0,0,1,14,82,6
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Angle,Driver,Automobile,16,0,1,0,0,0,0,0,1,0,0,0,0,1,52,77,5
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,18,0,0,0,0,1,0,0,0,0,0,0,1,0,52,78,4
+Major Arterial,Toronto and East York,Intersection,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,1,0,0,0,0,0,0,0,0,0,1,0,55,62,4
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,1,32,33,2
+Major Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,17,1,1,0,0,0,0,0,1,0,0,0,0,1,55,70,9
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,1,0,0,0,1,1,55,70,4
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,1,0,42,132,8
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,1,1,0,0,0,1,0,14,95,5
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,1,0,0,0,1,0,42,129,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,18,0,1,0,0,0,0,0,1,0,0,0,0,1,41,120,1
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Bus,14,0,0,0,0,1,0,0,0,0,0,0,1,0,52,78,10
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Dark,Wet,SMV Unattended Vehicle,Other,Other,1,0,1,0,0,0,0,0,0,0,0,0,0,0,32,33,12
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,7,0,1,0,0,0,0,0,1,0,0,0,1,0,43,136,11
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,0,0,1,0,0,1,0,0,1,0,0,0,1,0,55,68,3
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Bus,23,0,0,0,0,1,0,0,0,0,0,0,1,0,41,126,9
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Vehicle Owner,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,0,55,62,10
+Expressway,North York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,SMV Other,Driver,Automobile,1,0,1,0,0,0,0,0,1,0,0,0,0,1,54,44,9
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,0,0,0,0,1,0,41,120,11
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Automobile,17,0,1,0,0,0,0,0,1,0,0,0,0,0,14,82,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Turning Movement,Driver,Automobile,21,0,1,0,0,0,0,0,1,0,0,0,0,0,22,14,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,9,0,1,1,0,0,0,0,1,1,0,0,0,0,42,131,3
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Pedestrian Collisions,Driver,Automobile,2,0,1,0,0,0,0,0,0,0,0,0,1,1,14,77,1
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,23,1,1,0,0,0,0,0,0,0,0,0,0,0,51,75,11
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Truck Driver,Truck,16,0,1,0,1,0,0,0,1,1,0,0,0,0,33,47,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,15,0,0,0,0,1,0,0,1,1,0,0,1,0,41,120,1
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,18,1,1,0,0,0,0,0,0,0,0,0,0,0,14,95,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,0,0,12,110,1
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,1,1,0,0,1,0,52,77,4
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,13,0,1,0,0,0,0,0,1,0,0,0,1,0,52,75,3
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Sideswipe,Motorcycle Passenger,2 Wheels,1,0,1,1,0,0,0,0,0,0,1,0,0,0,54,66,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,19,0,1,1,0,0,0,0,1,0,0,0,0,1,12,28,10
+Minor Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Other,Approaching,Driver,Other,23,0,1,0,0,0,0,0,0,0,0,0,0,1,42,131,5
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Sideswipe,Motorcycle Passenger,2 Wheels,22,0,1,1,0,0,0,1,1,0,0,0,0,1,14,82,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,8,0,1,0,0,0,0,0,1,0,0,0,1,0,42,118,11
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,0,42,132,10
+Other,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,3,0,1,0,0,0,0,1,1,0,0,0,0,1,22,17,3
+Minor Arterial,Scarborough,Intersection,Other,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,5,0,1,0,0,0,0,0,1,0,0,0,1,1,42,132,1
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,0,0,1,0,0,0,0,0,0,0,1,0,51,72,7
+Other,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Vehicle Owner,Automobile,8,0,1,0,0,0,0,0,0,0,0,1,0,0,43,133,10
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Vehicle Owner,Other,1,0,1,1,0,0,0,0,0,0,0,0,0,0,11,85,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Truck Driver,Truck,6,0,0,0,1,0,0,0,0,0,0,0,1,0,31,21,3
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Wet,SMV Other,Vehicle Owner,Other,14,0,1,0,0,0,0,1,1,0,0,0,0,0,12,90,1
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,17,0,1,1,0,0,0,1,1,0,0,0,0,0,53,98,3
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,1,0,0,0,1,0,54,60,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Approaching,Truck Driver,Truck,13,0,1,0,1,0,0,1,1,0,0,0,0,0,31,25,8
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Driver,Automobile,13,0,1,1,0,0,0,0,0,0,0,0,0,1,53,98,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,1,0,0,31,21,1
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,0,55,70,4
+Minor Arterial,Etobicoke York,Mid-Block,At/Near Private Drive,No Control,Clear,Dark,Dry,SMV Unattended Vehicle,Other,Other,1,0,0,1,0,0,0,1,1,0,0,0,0,0,12,113,7
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,1
+Minor Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Other,10,0,1,0,0,0,0,0,1,0,0,0,0,1,42,131,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,13,0,1,0,0,0,0,0,0,0,0,0,1,0,32,51,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,1,13,92,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,5,0,1,1,0,0,0,0,1,0,0,0,0,0,41,120,6
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Passenger,Other,14,0,1,0,0,0,0,0,0,0,0,0,0,1,14,81,11
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,42,131,4
+Major Arterial,Etobicoke York,Mid-Block,At Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,23,1,4
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,Approaching,Vehicle Owner,Other,20,0,1,0,0,0,0,1,1,0,0,0,0,1,33,43,5
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Passenger,Other,16,0,1,0,0,0,0,0,0,0,0,0,0,1,42,128,6
+Major Arterial,North York,Intersection,Other,No Control,Clear,Dark,Dry,SMV Other,Vehicle Owner,Other,2,0,1,0,0,0,0,1,1,0,1,0,0,1,53,99,4
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,2,0,1,0,0,0,0,0,0,0,0,0,1,0,11,85,2
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Dark,Wet,Rear End,Vehicle Owner,Other,0,0,1,0,0,0,0,0,0,0,0,0,0,1,31,26,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,13,0,1,1,0,0,0,0,0,0,0,0,0,1,14,95,8
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,0,0,1,0,0,0,0,0,0,0,0,1,0,0,42,118,10
+Expressway,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,0,0,1,0,0,0,0,1,1,0,0,0,0,1,43,133,4
+Collector,Scarborough,Intersection,Other,No Control,Rain,Dark,Wet,SMV Other,Other,Other,3,0,1,0,0,0,0,1,1,0,1,0,0,1,43,139,3
+Major Arterial,North York,Mid-Block,At/Near Private Drive,No Control,Clear,Daylight,Dry,Turning Movement,Passenger,Other,13,0,1,0,0,0,0,0,1,0,0,0,0,1,13,31,5
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,9,1,1,0,0,0,0,0,0,0,0,0,0,0,13,94,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,10,0,0,0,1,0,0,0,0,0,0,0,1,0,31,24,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,1,0,0,0,1,0,53,39,12
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Vehicle Owner,Other,5,0,0,0,1,0,0,1,1,0,0,0,0,0,23,1,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Angle,Passenger,Other,3,0,1,0,0,1,0,1,1,1,1,0,0,1,14,93,2
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,14,0,1,0,0,0,0,0,1,1,0,0,0,1,41,124,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,1,0,0,0,1,1,22,14,4
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,43,137,5
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Sideswipe,Vehicle Owner,Other,1,0,1,1,0,0,0,0,0,0,1,0,0,0,54,66,8
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Other,Other,15,0,1,0,0,0,0,0,0,0,0,0,1,0,51,75,9
+Collector,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,22,15,4
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,8,1,1,0,0,0,0,0,0,0,0,0,0,0,54,54,5
+Collector,Etobicoke York,Intersection,Other,Pedestrian Crossover,Clear,Daylight,Dry,Sideswipe,Driver,Automobile,10,0,1,0,0,0,0,1,1,0,0,0,0,0,22,18,2
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,22,1,1,0,0,0,0,0,0,0,0,0,0,0,51,71,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,23,1,3
+Minor Arterial,Scarborough,Intersection,Other,Stop Sign,Clear,Daylight,Dry,Turning Movement,Passenger,Other,8,0,1,0,0,0,0,0,0,0,0,0,0,1,42,132,1
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,1,1,0,1,0,1,0,31,21,9
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,1,1,0,0,0,1,0,41,127,10
+Local,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,1,0,0,0,1,0,43,140,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,53,101,6
+Collector,Etobicoke York,Mid-Block,Other,Other,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,23,0,1,0,0,0,0,0,0,0,0,0,1,0,12,113,10
+Major Arterial,Toronto and East York,Mid-Block,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,1,13,107,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,43,137,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Passenger,Automobile,19,0,1,0,0,0,0,0,0,0,0,1,0,1,33,53,6
+Local,North York,Mid-Block,At/Near Private Drive,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,1,0,0,0,1,0,31,27,9
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,0,0,1,0,0,0,0,0,0,0,1,0,32,39,4
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Clear,Dawn,Dry,Approaching,Driver,Automobile,5,0,1,0,0,0,0,0,0,0,0,0,0,1,31,26,11
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,0,12,115,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,14,0,1,0,1,0,0,0,0,0,0,0,0,0,22,19,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Dusk,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,1,0,0,0,1,0,42,118,8
+Minor Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,7,0,0,0,1,0,0,0,0,0,0,0,1,0,41,123,5
+Major Arterial,North York,Intersection,Other,No Control,Clear,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,1,32,51,8
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,0,0,42,131,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Slush,Pedestrian Collisions,Pedestrian,Other,3,0,1,0,0,0,0,0,1,1,0,0,1,1,52,77,2
+Major Arterial,North York,Mid-Block,At/Near Private Drive,No Control,Clear,Daylight,Dry,Other,Passenger,Other,11,0,1,0,0,1,0,0,0,0,0,0,0,1,32,50,8
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,1,0,14,93,7
+Minor Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Other,Approaching,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,0,1,42,131,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,18,1,1,0,0,0,0,0,0,0,0,0,0,0,14,78,9
+Collector,Toronto and East York,Intersection,At Intersection,Stop Sign,Rain,Daylight,Wet,Turning Movement,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,0,0,11,114,7
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,10,0,0,0,0,1,0,0,0,0,0,0,1,0,13,32,10
+Local,Etobicoke York,Mid-Block,Non Intersection,No Control,Rain,Daylight,Wet,Turning Movement,Truck Driver,Truck,17,0,1,0,1,0,0,0,0,0,0,0,0,1,23,1,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,1,1,0,0,1,1,52,77,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,1,0,23,6,3
+Laneway,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,16,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,9
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dark,Other,Pedestrian Collisions,Pedestrian,Other,5,0,1,0,0,0,0,0,0,0,0,0,1,0,32,33,10
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,1,0,51,98,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,11,0,0,0,1,0,0,0,1,0,0,0,1,0,55,68,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,1,0,0,0,1,0,51,75,6
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Passenger,Other,17,0,1,0,0,0,0,0,1,1,0,0,0,1,42,116,3
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,13,0,1,0,0,0,0,0,0,0,0,0,1,0,52,78,2
+Other,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Rear End,Truck Driver,Truck,14,0,1,0,1,0,0,0,0,0,0,0,0,0,33,42,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Passenger,Other,3,0,1,0,0,0,0,1,1,0,0,0,0,1,54,58,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Cyclist Collisions,Driver,Automobile,23,1,1,0,0,0,0,0,0,0,0,0,0,0,32,27,11
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,18,0,1,1,0,0,0,0,1,0,0,0,0,0,23,8,10
+Local,North York,Mid-Block,Non Intersection,No Control,Snow,Daylight,Snow,Pedestrian Collisions,Other,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,1,0,31,26,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,0,1,31,27,5
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,17,1,1,0,0,0,0,0,0,0,0,0,0,1,11,83,6
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,2,0,1,0,0,0,0,0,0,0,0,0,1,0,14,79,8
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Truck Driver,Truck,6,0,0,0,1,0,0,0,1,0,0,0,1,0,32,105,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Vehicle Owner,Other,11,0,0,0,1,0,0,0,0,0,0,0,1,0,31,26,9
+Minor Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Other,SMV Unattended Vehicle,Other,Other,19,0,1,0,0,0,0,0,0,0,0,0,0,1,41,123,11
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,0,0,0,0,0,1,1,42,132,4
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,0,0,53,55,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,41,126,1
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,42,116,9
+Minor Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,0,0,0,0,0,1,0,22,16,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,0,0,1,0,0,0,0,1,1,0,0,0,1,0,31,26,6
+Minor Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Angle,Passenger,Other,7,0,1,0,0,0,0,1,1,1,0,0,0,1,23,8,8
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Wet,Cyclist Collisions,Other,Other,7,1,0,0,1,0,0,0,0,0,0,0,0,0,52,78,10
+Local,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Wet,SMV Other,Vehicle Owner,Other,15,0,1,0,0,0,0,1,1,0,0,0,0,0,23,7,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,41,120,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,17,0,1,0,0,0,0,0,1,0,0,0,0,1,43,127,6
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,41,124,7
+Other,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,14,0,1,0,1,0,0,0,0,0,0,0,0,0,33,42,5
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Rain,Daylight,Wet,Sideswipe,Driver,Automobile,10,0,1,0,0,0,0,1,1,0,0,0,0,1,11,90,9
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,16,0,1,0,0,0,0,0,0,0,0,0,1,0,55,70,12
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,1,0,1,1,0,0,0,1,1,0,0,0,0,0,43,137,1
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,10,0,0,0,1,0,0,0,0,0,0,0,1,0,11,84,2
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Other,Approaching,Driver,Automobile,10,0,1,0,0,0,0,0,1,0,0,0,0,0,23,2,3
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,14,81,12
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,1,1,0,0,0,1,0,23,4,7
+Major Arterial,Toronto and East York,Mid-Block,At Intersection,No Control,Clear,Dusk,Dry,Pedestrian Collisions,Truck Driver,Truck,17,0,0,0,1,0,0,0,0,0,0,0,1,0,14,85,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,0,1,33,47,1
+Local,North York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,31,27,5
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Vehicle Owner,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,8
+Local,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Other,Other,20,0,1,0,0,0,0,1,1,0,0,0,1,0,14,85,1
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Bus,8,0,0,0,0,1,0,0,0,0,0,0,1,0,52,76,6
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Slush,Pedestrian Collisions,Passenger,Other,2,0,1,0,0,0,0,1,1,0,0,0,1,1,14,82,2
+Local,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,41,123,7
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dusk,Dry,Approaching,Driver,Automobile,16,0,1,0,0,0,0,0,0,0,0,0,0,0,13,107,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Sideswipe,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,0,0,12,115,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Angle,Driver,Automobile,20,0,1,0,1,0,0,0,1,1,0,0,0,0,23,1,7
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Vehicle Owner,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,0,32,36,8
+Major Arterial,Scarborough,Mid-Block,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Vehicle Owner,Other,18,0,1,0,0,0,0,0,1,0,0,0,1,0,42,132,10
+Collector,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Passenger,Other,8,0,1,0,0,0,0,0,0,0,0,0,0,1,43,133,5
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Driver,Automobile,21,1,1,0,0,0,0,0,0,0,0,0,0,1,41,122,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,0,54,43,10
+Collector,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,0,0,0,0,0,1,0,32,36,11
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,42,131,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dawn,Dry,Pedestrian Collisions,Vehicle Owner,Other,7,0,1,0,0,0,0,0,1,0,0,0,1,0,31,26,11
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,22,0,1,0,0,0,0,0,1,0,0,1,0,1,55,68,5
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,19,0,1,0,0,0,0,0,0,0,0,0,1,0,53,39,5
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,10,0,1,0,0,0,0,0,1,1,0,0,1,0,31,25,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,1,1,0,0,1,1,1,53,104,3
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,2,0,1,0,0,0,0,0,0,0,0,0,1,0,14,79,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,23,0,1,1,0,0,0,0,1,0,0,0,0,0,11,93,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,21,1,1,0,0,0,0,0,0,0,0,0,0,0,43,136,7
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Rain,Daylight,Wet,Cyclist Collisions,Driver,Automobile,14,1,1,0,0,0,0,0,0,0,0,0,0,0,13,92,12
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dawn,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,11
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,14,0,1,0,0,0,0,0,1,0,0,0,0,0,53,95,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,0,0,1,0,0,0,1,0,0,0,1,0,41,119,12
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Vehicle Owner,Other,15,0,1,0,0,0,0,0,1,0,0,0,0,0,51,71,6
+Local,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Unattended Vehicle,Vehicle Owner,Other,17,0,1,0,0,0,0,0,0,0,0,0,0,1,23,4,11
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,16,0,1,0,1,0,0,0,1,0,0,0,0,1,12,28,12
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Cyclist Collisions,Passenger,Other,18,1,1,0,0,0,0,1,1,1,1,0,0,1,41,126,4
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,8,0,1,0,0,0,0,0,0,0,0,0,0,1,14,85,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,0,0,1,0,0,0,0,1,1,0,0,0,1,0,31,26,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Driver,Bus,9,0,1,0,0,1,0,0,1,0,0,0,0,1,23,6,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,1,0,0,0,1,0,32,38,1
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,1,0,1,0,0,0,0,0,0,0,0,0,1,0,22,14,8
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,16,1,0,0,1,0,0,0,1,0,0,0,0,0,53,55,9
+Major Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Automobile,10,0,1,0,1,0,0,0,1,0,0,0,1,1,53,99,8
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,0,54,57,9
+Collector,Scarborough,Intersection,Other,Stop Sign,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,1,0,0,0,1,0,42,129,12
+Collector,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Unattended Vehicle,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,0,0,51,71,3
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,1,0,1,0,0,0,0,0,0,0,0,0,1,0,52,79,4
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Wet,Pedestrian Collisions,Driver,Bus,9,0,0,0,0,1,0,0,0,0,0,0,1,0,54,44,11
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Passenger,Other,6,0,1,0,0,0,0,1,1,0,0,0,0,1,51,73,3
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Truck,5,0,0,0,1,0,0,0,0,0,0,0,1,0,52,76,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Vehicle Owner,Other,11,0,1,1,0,0,0,0,1,0,0,0,0,0,22,18,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Other,Daylight,Other,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,1,1,1,1,0,1,0,41,122,12
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dusk,Dry,Turning Movement,Driver,Automobile,21,0,1,0,0,0,0,0,1,0,0,0,0,1,33,49,7
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Wet,SMV Other,Other,Other,15,0,1,0,0,0,0,1,1,0,0,0,0,0,53,104,2
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,53,101,6
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,1,0,0,0,1,0,14,93,10
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Motorcycle Passenger,2 Wheels,22,0,0,1,0,0,0,0,0,0,0,0,0,0,14,85,8
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,1,0,0,0,1,0,42,131,8
+Minor Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,0,0,0,0,1,0,41,122,6
+Minor Arterial,Scarborough,Mid-Block,At/Near Private Drive,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,1,0,0,0,1,1,42,132,7
+Minor Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,19,0,1,1,0,0,0,1,1,0,0,0,0,1,22,9,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Other,Dark,Other,Turning Movement,Truck Driver,Truck,3,0,0,1,1,0,0,1,1,0,0,0,0,0,23,1,5
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Other,Dark,Other,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,0,0,0,0,1,0,31,22,2
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,42,130,9
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Van,12,0,1,0,0,0,0,0,1,0,0,0,1,0,11,88,11
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Approaching,Driver,Automobile,10,0,1,0,0,0,0,1,1,0,0,0,0,1,43,138,11
+Minor Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Approaching,Driver,Automobile,2,0,1,0,0,0,0,1,1,0,0,0,0,1,42,131,8
+Major Arterial,North York,Intersection,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,1,41,119,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,12,0,1,1,0,0,0,0,1,0,0,0,0,0,22,16,6
+Local,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,18,0,1,0,0,0,0,0,1,0,0,0,0,1,23,5,7
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Wet,Turning Movement,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,0,1,23,2,4
+Collector,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,SMV Other,Motorcycle Passenger,2 Wheels,18,0,0,1,0,0,0,0,0,0,0,0,0,0,22,14,4
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,10,0,1,0,0,0,0,0,1,1,0,0,0,0,42,116,2
+Collector,Scarborough,Mid-Block,Other,No Control,Clear,Dusk,Dry,Rear End,Driver,Automobile,16,0,1,0,0,0,0,0,0,0,0,0,0,0,43,136,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,10,0,0,0,1,0,0,0,1,0,0,0,1,0,32,33,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,18,0,1,0,0,0,0,0,1,0,0,1,0,0,12,110,6
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,13,1,1,0,0,0,0,0,0,0,0,0,0,0,53,103,5
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,13,0,1,0,0,0,0,0,0,0,0,0,1,0,32,35,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,22,8,2
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,13,0,1,0,0,0,0,1,1,0,0,0,0,0,31,26,5
+Expressway,North York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,SMV Other,Driver,Automobile,1,0,1,0,0,0,0,0,1,0,0,0,0,1,54,44,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,1,1,0,0,1,1,22,10,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,11,0,0,0,1,0,0,0,1,0,0,0,1,0,55,68,1
+Major Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,10,0,1,0,1,0,0,0,1,0,0,0,1,1,53,99,8
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,1,0,53,103,11
+Collector,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Van,10,0,1,0,0,0,0,0,1,1,0,0,0,0,42,130,3
+Minor Arterial,Scarborough,Mid-Block,Other,No Control,Snow,Dark,Snow,Pedestrian Collisions,Driver,Automobile,7,0,1,0,0,0,0,1,1,0,0,0,1,0,42,116,2
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,1,0,0,0,1,0,22,12,3
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,0,0,1,0,0,0,0,0,0,0,0,0,0,1,14,85,8
+Local,Etobicoke York,Other,Other,No Control,Clear,Daylight,Dry,Other,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,0,0,31,26,3
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Sideswipe,Motorcycle Passenger,2 Wheels,18,0,1,1,0,0,0,0,0,0,0,0,0,1,32,51,7
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,0,0,41,119,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dawn,Dry,Pedestrian Collisions,Driver,Other,4,0,0,0,0,0,0,0,0,0,0,0,1,0,51,77,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Other,Passenger,Other,18,0,1,0,0,0,0,0,0,0,0,0,0,1,23,1,12
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,0,0,0,0,1,0,11,93,5
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Sideswipe,Motorcycle Passenger,2 Wheels,16,0,1,1,0,0,0,0,0,0,0,0,0,0,22,10,7
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,0,0,0,0,0,1,0,22,14,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Sideswipe,Driver,Automobile,3,0,1,0,0,0,0,0,0,0,0,0,0,1,14,79,1
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,8,0,1,0,0,0,0,0,0,0,0,0,1,0,43,137,9
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,22,18,7
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,1,0,1,0,0,0,0,0,0,0,0,0,1,0,53,95,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,5,0,1,0,0,0,0,0,1,0,0,0,1,0,42,128,8
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,1,1,41,138,10
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Other,Vehicle Owner,Other,6,0,0,0,0,1,0,0,0,0,0,0,0,1,51,74,6
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,9,0,1,0,0,0,0,0,0,0,0,0,1,1,32,37,8
+Major Arterial,North York,Intersection,Other,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,16,0,1,0,0,0,0,0,1,0,0,0,0,1,33,42,2
+Local,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Passenger,Other,16,0,1,0,0,0,0,0,0,0,0,0,0,1,22,20,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Rear End,Passenger,Other,3,0,1,0,0,0,0,1,1,0,0,0,0,1,31,25,4
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dawn,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,11
+Minor Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,13,0,1,1,0,0,0,1,1,0,0,0,0,1,43,133,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Passenger,Other,19,0,1,0,0,1,0,0,1,1,0,0,0,1,41,120,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,23,2,1
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,1,0,0,0,1,0,11,87,7
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,0,31,21,7
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Rear End,Motorcycle Passenger,2 Wheels,23,0,1,1,0,0,0,1,1,0,0,0,0,1,11,85,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Other,Dark,Other,Sideswipe,Passenger,Other,22,0,1,0,0,0,0,1,1,0,1,0,0,1,22,18,5
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,14,0,0,0,0,1,0,0,0,0,0,0,1,0,53,98,7
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dawn,Dry,Sideswipe,Driver,Automobile,5,0,1,0,0,0,0,1,1,0,0,0,0,1,32,51,3
+Major Arterial,North York,Intersection,Other,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,16,0,1,0,0,0,0,0,1,0,0,0,0,1,33,42,2
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,0,43,136,8
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dawn,Dry,Approaching,Driver,Automobile,6,0,1,0,0,0,0,0,1,0,0,0,0,0,41,126,3
+Major Arterial,Toronto and East York,Mid-Block,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,0,11,83,1
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Sideswipe,Motorcycle Passenger,2 Wheels,19,0,1,1,0,0,0,1,1,0,0,0,0,0,13,94,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,0,0,1,0,0,0,1,0,0,0,1,0,55,68,1
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Ice,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,1,1,0,0,0,1,0,41,120,2
+Major Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,1,0,1,1,0,0,0,1,0,43,140,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Passenger,Other,13,0,1,0,1,0,0,0,1,1,0,0,0,1,23,2,7
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,16,0,1,1,0,0,0,0,0,0,0,0,0,1,33,53,6
+Major Arterial,Scarborough,Mid-Block,Other,Traffic Signal,Clear,Daylight,Dry,Rear End,Passenger,Other,14,0,1,0,0,0,0,0,1,0,0,0,0,1,42,117,7
+Local,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Automobile,9,0,1,0,0,0,0,1,1,0,0,0,0,0,53,102,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Vehicle Owner,Other,12,0,1,0,0,0,0,0,1,0,0,0,0,1,31,27,4
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Sideswipe,Other,Other,14,0,1,0,0,0,0,0,0,0,0,0,0,1,33,49,6
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Snow,Daylight,Snow,Approaching,Other,Other,12,0,1,0,0,0,0,0,0,0,0,0,0,1,42,130,1
+Collector,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Other,Other,9,0,1,0,0,0,0,0,0,0,0,0,0,0,33,42,9
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Snow,Daylight,Ice,Approaching,Passenger,Other,15,0,1,0,0,0,0,1,1,0,0,0,0,1,53,98,12
+Local,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,1,0,0,0,1,0,13,106,11
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,15,1,1,0,0,0,0,0,1,0,0,0,0,0,14,79,12
+Collector,North York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,13,102,6
+Major Arterial,North York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,0,31,26,10
+Local,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,42,116,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,32,35,12
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Vehicle Owner,Other,1,0,1,0,0,0,0,0,0,0,0,0,1,0,12,111,8
+Local,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Other,Truck,14,0,0,0,1,0,0,0,0,0,0,0,1,0,22,19,9
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,23,0,1,0,0,0,0,1,1,0,0,0,0,0,42,132,9
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,12,0,0,0,1,0,0,0,0,0,0,0,1,0,22,17,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,4,0,1,0,0,0,0,0,1,0,0,0,1,0,42,130,5
+Other,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,8,0,1,0,0,0,0,0,0,0,0,1,0,0,43,133,10
+Major Arterial,Etobicoke York,Intersection,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,22,18,9
+Collector,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,53,100,5
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,SMV Unattended Vehicle,Passenger,Other,12,0,1,0,0,0,0,0,0,0,0,0,0,1,53,97,5
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Rear End,Motorcycle Passenger,2 Wheels,15,0,1,1,0,0,0,0,1,0,0,0,0,0,55,66,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,10,0,1,0,0,0,0,0,1,0,0,0,1,0,54,58,5
+Local,Toronto and East York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Other,Other,10,0,0,1,1,0,0,0,1,0,0,0,0,0,51,70,7
+Local,North York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,18,0,1,0,0,0,0,0,0,0,0,0,1,0,31,27,5
+Major Arterial,Etobicoke York,Mid-Block,Other,Other,Other,Dusk,Other,Other,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,0,0,23,1,6
+Minor Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,0,0,1,0,0,0,1,0,0,0,1,0,32,27,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,1,0,0,0,0,0,1,0,0,0,0,0,23,1,7
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,7,1,1,0,0,0,0,0,0,0,0,0,0,0,13,94,8
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Driver,Bus,12,1,0,0,0,1,0,0,0,0,0,0,0,0,52,78,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,1,1,0,0,0,1,1,32,50,2
+Collector,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,8,0,1,0,0,0,0,0,0,0,0,0,1,0,32,36,11
+Collector,Toronto and East York,Mid-Block,Other,No Control,Rain,Daylight,Wet,SMV Other,Driver,Automobile,15,0,1,0,0,0,0,1,1,0,0,0,0,0,51,70,10
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Wet,SMV Unattended Vehicle,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,1,0,0,53,97,1
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,41,120,10
+Major Arterial,North York,Mid-Block,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,0,0,1,0,0,0,0,0,0,0,0,0,1,1,33,47,7
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,3,0,1,0,0,0,0,1,1,0,0,0,0,0,55,68,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,1,0,32,31,8
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,12,0,1,0,0,0,0,0,1,1,0,0,0,1,42,118,7
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Driver,Automobile,12,0,1,0,0,0,0,1,1,0,0,0,0,0,43,137,2
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,22,1,1,0,0,0,0,0,1,1,1,0,0,0,51,77,7
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,1,0,14,95,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,1,0,0,0,1,0,53,98,4
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,1,0,52,78,2
+Collector,Toronto and East York,Intersection,At Intersection,Stop Sign,Rain,Daylight,Wet,Turning Movement,Vehicle Owner,Other,17,0,1,0,0,0,0,0,0,0,0,0,0,0,11,114,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,23,1,3
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,1,0,0,0,0,0,0,1,1,53,97,11
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,12,1,1,0,0,0,0,0,0,0,0,0,0,0,51,71,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,13,0,1,1,0,0,0,0,1,1,0,0,0,1,32,40,5
+Minor Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Motorcycle Passenger,2 Wheels,8,0,1,1,0,0,0,1,1,0,0,0,0,0,13,31,9
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,23,0,1,1,0,0,0,1,1,0,0,0,0,1,11,85,10
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,22,0,1,1,0,0,0,1,1,0,0,0,0,0,31,25,11
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,20,0,1,1,0,0,0,0,0,0,0,0,0,0,53,56,7
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,1,0,1,0,0,0,0,0,0,0,0,0,1,0,12,111,8
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,23,0,1,0,0,0,0,0,0,0,0,0,1,0,42,128,5
+Major Arterial,North York,Intersection,Other,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,15,0,1,1,0,0,0,0,1,0,0,0,0,0,33,42,6
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,15,0,1,0,0,0,0,1,1,0,0,0,0,0,42,129,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Turning Movement,Truck Driver,Truck,11,0,1,0,1,0,0,0,1,0,0,0,0,0,42,116,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,1,0,1,0,0,0,0,0,0,0,0,0,1,0,13,92,6
+Major Arterial,Etobicoke York,Intersection,Other,Stop Sign,Clear,Daylight,Snow,Turning Movement,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,0,1,23,8,3
+Collector,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,11,1,1,0,0,0,0,0,0,0,0,0,0,0,12,112,9
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,10,0,1,0,0,0,0,0,0,0,0,0,1,0,43,127,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,23,0,1,0,0,0,0,0,0,0,0,0,1,1,43,127,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,11,88,4
+Minor Arterial,North York,Mid-Block,Other,Pedestrian Crossover,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,1,0,0,0,1,0,32,51,10
+Pending,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,0,0,1,0,0,0,0,1,1,0,0,0,0,1,14,82,11
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,0,55,63,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Angle,Driver,Automobile,0,0,1,0,0,0,0,1,1,1,0,0,0,0,31,22,4
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Other,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,15,1,1,0,0,0,0,0,0,0,0,0,0,0,41,120,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,19,0,1,1,0,0,0,1,1,0,0,0,0,1,43,127,6
+Local,Etobicoke York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,0,22,17,7
+Major Arterial,Toronto and East York,Intersection,Non Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Driver,Van,12,1,1,0,0,0,0,0,0,0,0,0,0,0,54,58,7
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,1,0,0,0,0,0,0,0,0,0,1,0,11,93,5
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Passenger,Other,6,0,1,0,0,1,0,0,0,0,0,0,0,1,42,117,8
+Major Arterial,Scarborough,Intersection,Other,No Control,Clear,Daylight,Dry,SMV Other,Other,Other,18,0,1,0,0,0,0,0,0,0,0,0,0,1,41,119,4
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Motorcycle Passenger,Other,1,0,0,1,0,0,0,1,1,0,0,0,0,1,51,71,5
+Collector,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dusk,Dry,Other,Passenger,Other,20,0,1,0,0,0,0,0,0,0,0,0,0,1,14,82,5
+Collector,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Passenger,Other,4,0,1,0,0,0,0,0,0,0,0,0,0,1,43,137,12
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,2,0,1,0,0,0,0,0,0,0,0,0,1,0,14,79,8
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Van,16,0,1,0,0,0,0,0,1,0,1,0,1,1,41,120,9
+Minor Arterial,Scarborough,Intersection,Other,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Passenger,Other,5,0,1,0,0,0,0,0,1,0,0,0,1,1,42,132,1
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Approaching,Driver,Automobile,9,0,1,0,0,0,0,0,0,0,0,0,0,0,31,23,1
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Passenger,Other,17,0,0,0,1,0,0,0,0,0,0,0,0,1,55,65,10
+Major Arterial,North York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,1,0,32,36,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,11,0,1,0,0,0,0,0,1,1,0,0,0,1,23,7,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,SMV Other,Passenger,Other,2,0,1,0,0,0,0,1,1,0,1,0,0,1,53,98,9
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,1,0,32,50,10
+Collector,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,0,0,32,32,12
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,1,0,42,129,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Wet,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,0,0,1,0,0,0,0,0,0,0,0,0,53,95,7
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,55,70,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,7,0,1,0,0,0,0,0,1,0,0,0,1,0,12,30,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,11,0,1,0,0,0,0,0,0,0,0,0,1,1,22,16,4
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dawn,Dry,Pedestrian Collisions,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,11
+Collector,Toronto and East York,Intersection,Other,Stop Sign,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,1,0,0,0,0,0,0,0,0,0,0,0,53,98,5
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,0,0,1,0,0,0,1,0,0,0,0,0,55,70,5
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,5,0,1,0,0,0,0,0,0,0,0,0,1,0,22,14,10
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,9,1,1,0,0,0,0,0,0,0,0,0,0,0,13,94,9
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Other,Other,8,0,1,0,1,0,0,0,0,0,0,0,0,0,31,26,9
+Collector,Scarborough,Mid-Block,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,1,0,0,0,0,0,0,0,0,0,1,0,42,131,8
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,13,0,1,0,0,0,0,0,1,0,0,0,1,1,52,77,7
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,1,0,0,0,1,0,11,83,1
+Major Arterial,Scarborough,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,7,1,0,0,0,0,0,0,1,0,0,0,0,0,41,119,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Passenger,Other,2,0,1,0,0,0,0,0,0,0,0,0,1,1,11,87,7
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,1,1,0,0,0,1,0,51,73,7
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,12,1,0,0,1,0,0,0,0,0,0,0,0,0,52,79,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,5,0,0,0,1,0,0,0,1,1,0,0,1,0,13,102,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Other,Passenger,Other,12,0,0,0,0,1,0,0,0,0,0,0,0,1,12,28,2
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,8,0,1,0,0,0,0,0,1,0,0,0,1,1,22,12,2
+Collector,Scarborough,Intersection,Other,Stop Sign,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,15,0,1,0,0,0,0,0,1,0,0,0,0,1,42,117,11
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,7,0,1,0,0,0,0,1,1,0,0,0,1,0,51,73,7
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,21,0,1,1,0,0,0,0,1,0,0,0,0,0,14,85,5
+Major Arterial,North York,Intersection,Other,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Other,Other,10,0,1,0,0,0,0,0,1,0,0,0,1,0,13,106,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Rain,Daylight,Wet,Cyclist Collisions,Driver,Automobile,6,1,1,0,0,0,0,0,0,0,0,0,0,1,14,78,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,10,0,0,0,1,0,0,0,1,0,0,0,1,0,32,33,4
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,0,0,0,0,1,0,54,57,9
+Minor Arterial,Scarborough,Intersection,At Intersection,Pedestrian Crossover,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Truck,14,0,1,0,0,0,0,0,1,0,0,0,1,0,41,122,3
+Major Arterial,Scarborough,Intersection,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,0,0,0,0,1,0,41,124,10
+Other,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,3,0,1,0,0,0,0,1,1,0,0,0,0,1,22,17,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,16,0,0,0,1,0,0,0,1,0,0,0,1,0,31,22,2
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,8,1,0,0,1,0,0,0,0,0,0,0,0,0,53,103,4
+Local,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Approaching,Driver,Automobile,20,0,1,0,0,0,0,1,1,0,0,0,0,1,31,25,4
+Minor Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,5,0,1,1,0,0,0,0,1,0,0,0,0,0,22,17,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Passenger,Other,16,0,1,0,0,0,0,0,0,0,0,0,0,1,42,116,2
+Major Arterial,Etobicoke York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,1,0,0,0,1,0,31,27,12
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Truck Driver,Truck,8,0,1,0,1,0,0,0,0,0,0,1,0,1,42,132,6
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,13,0,0,0,0,1,0,0,0,0,0,0,1,0,52,78,7
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Passenger,Other,15,0,1,0,0,0,0,1,1,0,0,0,0,1,55,64,10
+Other,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,0,1,51,77,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,1,23,1,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Passenger,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,1,55,62,6
+Major Arterial,Toronto and East York,Mid-Block,At Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,3
+Local,Toronto and East York,Mid-Block,Other,No Control,Rain,Daylight,Wet,SMV Other,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,0,0,14,85,6
+Minor Arterial,Etobicoke York,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,9,0,1,0,0,0,0,0,1,0,0,0,1,0,12,111,6
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,13,0,1,0,0,0,0,0,1,0,0,0,1,1,52,77,7
+Other,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,8,0,1,0,0,0,0,0,1,0,0,0,0,1,13,102,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,0,1,52,79,8
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Other,SMV Other,Vehicle Owner,Other,19,0,1,0,0,0,0,0,0,0,0,0,0,0,52,76,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Other,18,0,1,0,0,0,0,0,1,1,0,0,1,1,33,52,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Truck Driver,Truck,16,0,0,0,1,0,0,0,1,0,0,0,1,0,32,37,2
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,15,0,1,1,1,0,0,1,1,0,0,0,0,0,43,127,8
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Vehicle Owner,Other,11,0,1,0,0,0,0,1,1,0,0,1,0,1,54,57,11
+Minor Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,1,0,0,0,1,0,41,122,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,1,0,0,0,0,0,0,0,0,0,1,0,52,77,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,8,0,1,0,0,0,0,0,1,0,0,0,0,0,11,111,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Passenger,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,1,31,26,3
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,14,0,1,0,0,0,0,0,1,0,0,0,1,0,41,138,11
+Collector,Scarborough,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,41,122,8
+Collector,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,4,0,1,0,0,0,0,0,0,0,0,0,1,0,51,75,9
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,16,0,0,0,0,1,0,0,0,0,0,0,1,0,11,90,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Passenger,Other,8,0,1,0,0,0,0,0,0,0,0,0,0,1,53,71,7
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Van,10,0,1,0,0,0,0,0,1,1,0,0,0,1,42,116,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Angle,Driver,Automobile,3,0,1,1,0,0,0,0,1,1,1,0,0,0,41,126,5
+Minor Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,18,0,1,0,0,0,0,0,1,0,0,0,0,1,22,9,6
+Minor Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Angle,Vehicle Owner,Other,7,0,1,0,0,0,0,1,1,1,0,0,0,1,23,8,8
+Collector,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Automobile,7,0,1,0,0,0,0,1,1,0,1,0,0,1,32,36,7
+Major Arterial,North York,Other,Other,Traffic Signal,Clear,Daylight,Dry,Sideswipe,Driver,Automobile,7,0,1,0,0,0,0,0,0,0,0,0,0,0,32,50,8
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,1,0,0,0,1,0,42,132,11
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,0,0,0,0,0,0,0,0,0,0,1,1,11,86,4
+Minor Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Truck,17,0,1,0,0,0,0,0,1,0,0,0,0,0,32,50,6
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Vehicle Owner,Other,10,0,1,0,0,0,0,0,1,0,0,0,0,0,11,83,3
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,1,0,31,27,10
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Unattended Vehicle,Driver,Automobile,18,0,1,0,0,0,0,1,1,0,0,0,0,0,53,98,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,14,1,1,0,0,0,0,0,0,0,0,0,0,1,52,76,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,0,0,22,14,4
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Truck,0,0,1,0,0,0,0,0,0,0,1,0,1,0,41,124,10
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,22,0,0,0,0,1,0,0,0,0,0,0,1,0,14,82,4
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Vehicle Owner,Other,19,0,0,1,0,0,0,0,0,0,0,0,0,0,12,30,8
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,14,1,1,0,0,0,1,0,1,0,0,0,0,0,53,97,9
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,20,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,9
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,23,0,1,1,0,0,0,1,1,0,0,0,0,1,32,26,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,0,0,1,0,0,0,1,0,0,0,1,0,32,27,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Van,11,0,1,0,0,0,0,0,0,0,0,0,0,1,12,30,12
+Major Arterial,North York,Intersection,Other,Traffic Signal,Snow,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,1,0,0,0,1,0,32,37,12
+Minor Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,0,1,23,8,7
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,13,1,0,0,0,1,0,0,0,0,0,0,0,0,13,106,6
+Major Arterial,Etobicoke York,Intersection,At Intersection,Other,Clear,Dark,Other,Turning Movement,Truck Driver,Truck,22,0,1,0,1,0,0,0,1,0,0,0,0,0,23,2,11
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,Approaching,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,1,0,0,1,32,36,2
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Automobile,11,0,1,0,1,0,0,0,1,0,0,0,0,1,22,10,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,8,0,1,1,0,0,0,1,1,0,0,0,0,0,12,30,6
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,1,51,75,5
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Wet,Cyclist Collisions,Cyclist Passenger,2 Wheels,7,1,0,0,1,0,0,0,0,0,0,0,0,0,52,78,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dawn,Dry,Pedestrian Collisions,Pedestrian,Other,4,0,0,0,0,0,0,0,0,0,0,0,1,0,51,77,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,18,1,1,0,0,0,0,0,0,0,0,0,0,0,14,78,9
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,8,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,13,107,5
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Other,11,0,0,0,1,1,0,1,1,0,0,0,1,1,42,130,8
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,51,75,12
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Approaching,Driver,Automobile,2,0,1,1,0,0,0,0,0,0,0,0,0,1,11,87,9
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Passenger,Other,21,0,1,0,0,0,0,1,1,0,0,0,0,1,53,95,9
+Collector,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Passenger,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,1,52,76,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,17,0,1,0,0,0,0,1,1,0,0,0,0,1,22,14,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,9
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Rain,Daylight,Wet,Sideswipe,Driver,Automobile,10,0,1,0,0,0,0,1,1,0,0,0,0,1,11,90,9
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,0,12,115,12
+Local,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,12,0,1,0,0,0,0,0,0,0,0,0,1,0,53,98,12
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dawn,Dry,Angle,Driver,Automobile,5,0,1,0,0,0,0,0,1,1,0,1,0,1,42,116,4
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Rear End,Vehicle Owner,Other,0,0,1,0,0,0,0,0,0,0,0,0,0,1,14,85,8
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dawn,Dry,SMV Other,Driver,Automobile,5,0,1,0,0,0,0,1,1,0,0,0,0,0,11,85,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,10,0,1,0,0,0,0,0,1,0,0,0,0,0,12,111,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Other,Daylight,Other,Pedestrian Collisions,Driver,Van,15,0,1,0,0,0,0,1,1,0,0,0,1,0,31,26,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,14,0,0,0,1,0,0,0,1,0,0,0,1,0,51,75,11
+Major Arterial,Etobicoke York,Mid-Block,At Intersection,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Truck Driver,Truck,12,0,0,0,1,0,0,0,0,0,0,0,1,0,31,21,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Snow,Daylight,Slush,Angle,Driver,Automobile,15,0,1,0,0,0,0,0,1,0,0,0,0,1,55,70,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,1,1,0,54,44,10
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,17,1,1,0,0,0,0,0,1,0,0,0,0,0,52,76,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,42,130,8
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Dark,Wet,Approaching,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,1,0,0,0,23,2,4
+Collector,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,1,0,0,0,1,0,32,105,12
+Minor Arterial,Scarborough,Other,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,2,0,1,0,0,0,0,0,0,0,0,0,1,0,42,116,7
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,5,0,1,0,0,0,0,1,1,0,0,0,0,1,53,55,1
+Other,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Sideswipe,Driver,Automobile,0,0,1,1,0,0,0,1,1,0,0,0,0,0,22,17,6
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,1,0,0,0,0,0,0,0,0,0,1,1,42,130,10
+Major Arterial,Scarborough,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,SMV Other,Motorcycle Passenger,2 Wheels,18,0,1,1,0,0,0,1,1,0,0,0,0,0,42,128,7
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,9,1,0,0,0,1,0,0,0,0,0,0,0,0,53,95,9
+Minor Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dusk,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,21,0,1,1,0,0,0,1,1,0,0,0,0,0,22,11,5
+Collector,North York,Mid-Block,At Intersection,Pedestrian Crossover,Clear,Dark,Dry,SMV Other,Passenger,Other,23,0,1,0,0,0,0,1,1,0,0,0,0,1,32,38,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,3
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,23,0,1,0,0,0,0,0,1,0,0,0,1,0,51,73,12
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,23,6,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Rear End,Driver,Automobile,22,0,1,0,0,0,0,1,1,0,0,0,0,1,31,21,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,1,0,0,0,1,0,33,45,6
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,1,0,42,132,4
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Vehicle Owner,Other,20,0,0,0,0,1,0,0,1,0,0,0,1,1,13,96,12
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,18,1,0,0,0,0,0,0,0,0,0,0,0,0,14,85,5
+Expressway,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,0,0,1,0,0,0,0,0,0,0,0,0,1,0,43,133,8
+Minor Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,1,0,0,0,1,0,43,136,11
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Truck Driver,Truck,5,0,0,0,1,0,0,1,1,0,0,0,0,0,23,1,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,0,0,1,0,0,0,0,0,0,0,1,1,52,77,10
+Minor Arterial,Scarborough,Mid-Block,At/Near Private Drive,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,12,0,1,1,0,0,0,0,1,0,0,0,0,0,42,132,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,16,0,1,1,0,0,0,0,1,0,0,0,0,1,41,122,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,1,0,42,131,6
+Major Arterial,North York,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,16,0,1,0,0,0,0,0,1,0,0,0,1,1,32,41,2
+Collector,Scarborough,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,41,119,10
+Collector,Scarborough,Intersection,At Intersection,Pedestrian Crossover,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,12,1,0,0,0,0,0,0,0,0,0,0,0,0,42,118,8
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,0,1,0,0,0,0,0,0,0,0,1,0,32,39,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Other,17,0,1,0,0,0,0,0,1,0,0,0,1,1,12,113,5
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Passenger,Other,15,0,1,0,0,0,0,0,1,0,0,0,0,1,23,4,4
+Other,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Wet,Sideswipe,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,0,1,22,17,11
+Major Arterial,Scarborough,Intersection,Non Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,20,0,1,1,0,0,0,0,1,0,0,0,0,0,42,117,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,41,126,2
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,1,0,0,0,1,1,41,126,1
+Major Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,SMV Other,Driver,Other,10,0,0,1,0,0,0,0,1,0,0,0,0,0,41,120,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,23,1,1,0,0,0,0,0,0,0,0,0,0,0,11,85,9
+Local,Etobicoke York,Intersection,At/Near Private Drive,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,23,8,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,SMV Other,Passenger,Other,21,0,1,0,0,0,0,1,1,0,0,0,0,1,51,71,11
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,1,0,41,120,11
+Major Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,14,0,1,0,0,0,0,0,1,0,0,0,0,0,41,119,9
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Approaching,Motorcycle Passenger,2 Wheels,18,0,0,1,1,0,0,1,1,0,0,0,0,0,23,1,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Rear End,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,1,0,0,31,25,12
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Sideswipe,Driver,Automobile,11,0,1,0,1,0,0,0,0,0,0,0,0,1,12,29,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Passenger,Other,15,0,1,0,0,0,0,1,1,0,0,0,0,1,41,120,11
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,0,0,23,1,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,10,0,1,0,0,0,0,0,1,0,0,0,1,0,14,81,5
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,1,0,0,0,0,1,1,1,0,0,1,0,41,124,10
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,SMV Other,Driver,Automobile,0,0,1,0,0,0,0,0,0,0,0,0,0,0,31,26,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Passenger,Other,19,0,1,0,0,0,0,0,1,1,0,0,0,1,43,137,6
+Collector,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Approaching,Vehicle Owner,Other,14,0,1,0,0,0,0,0,0,0,1,0,0,0,42,117,6
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Passenger,Other,20,0,1,0,0,0,0,0,0,0,0,0,0,1,41,127,9
+Local,North York,Intersection,Other,Stop Sign,Clear,Daylight,Dry,Angle,Driver,Automobile,8,0,1,0,0,0,0,0,1,0,0,0,0,1,32,34,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Cyclist Collisions,Cyclist Passenger,2 Wheels,13,1,1,0,0,0,0,0,0,0,0,0,0,0,42,129,11
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Unattended Vehicle,Vehicle Owner,Other,1,0,1,0,0,0,0,0,0,0,0,0,0,0,55,62,2
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,SMV Other,Driver,Automobile,3,0,1,0,0,0,0,1,1,0,0,0,0,1,51,75,9
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,14,0,1,0,0,0,0,0,0,0,0,0,1,0,23,3,9
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,"Fog, Mist, Smoke, Dust",Dark,Wet,Turning Movement,Passenger,Other,2,0,1,0,0,0,0,1,1,0,0,0,0,1,42,129,11
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,23,3,10
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,3,0,1,0,0,0,0,0,0,0,0,0,1,1,11,87,5
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,0,0,0,0,1,0,23,3,7
+Other,Toronto and East York,Other,Other,Other,Clear,Dark,Dry,SMV Other,Driver,Automobile,4,0,1,0,0,0,0,0,0,0,1,0,0,1,54,57,9
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Vehicle Owner,Other,7,0,1,0,0,0,0,0,0,0,0,0,0,0,54,58,11
+Major Arterial,Etobicoke York,Intersection,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,12,30,11
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,10,0,0,0,0,1,0,0,0,0,0,0,1,0,14,78,9
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Rear End,Passenger,Other,13,0,1,0,1,0,0,1,1,0,0,0,0,1,23,1,5
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,1,14,80,12
+Major Arterial,Toronto and East York,Mid-Block,Other,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,21,1,0,0,0,1,0,0,0,0,0,0,0,0,14,82,7
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,16,1,1,0,0,0,0,0,0,0,0,0,0,0,53,95,10
+Major Arterial,North York,Intersection,Non Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Passenger,Other,14,0,1,0,0,0,0,0,0,0,0,0,0,1,32,39,10
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Wet,Cyclist Collisions,Truck Driver,Truck,7,1,0,0,1,0,0,0,0,0,0,0,0,0,52,78,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,8,0,1,0,0,0,0,0,1,0,0,0,1,0,11,88,9
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Sideswipe,Motorcycle Passenger,2 Wheels,16,0,1,1,0,0,0,0,0,0,0,0,0,0,22,10,7
+Collector,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Sideswipe,Driver,Truck,19,0,1,1,0,0,0,1,1,0,0,0,0,0,42,131,8
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,21,0,1,0,0,0,0,0,1,0,0,0,1,0,32,50,3
+Major Arterial,Scarborough,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Approaching,Driver,Automobile,9,0,1,0,0,0,0,0,0,0,0,0,0,0,41,125,12
+Other,Toronto and East York,Mid-Block,Other,No Control,Snow,Dark,Snow,SMV Other,Passenger,Other,0,0,1,0,0,0,0,1,1,0,0,0,0,1,55,68,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,0,0,0,0,1,0,14,82,1
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Other,Daylight,Other,Pedestrian Collisions,Pedestrian,Other,12,0,0,0,1,0,0,0,1,0,0,0,1,0,51,77,12
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,12,1,0,0,0,0,0,0,0,0,0,0,0,0,14,93,7
+Major Arterial,Scarborough,Mid-Block,At Intersection,No Control,Clear,Dark,Dry,Rear End,Passenger,Other,3,0,1,0,0,0,0,0,0,0,0,0,0,1,42,131,9
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Rain,Dark,Wet,Turning Movement,Vehicle Owner,Other,7,0,1,1,0,0,0,0,1,0,0,0,0,0,51,73,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,7,1,0,0,0,1,0,0,0,0,0,0,0,0,52,77,11
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,13,0,1,0,0,0,0,0,0,0,0,0,1,0,55,68,7
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,7,1,0,0,0,1,0,0,0,0,0,0,0,0,52,77,11
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Automobile,8,0,1,0,0,0,0,0,0,0,0,0,1,0,13,101,11
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Approaching,Passenger,Other,0,0,1,0,0,0,0,0,0,0,0,0,0,1,31,24,4
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Rain,Daylight,Wet,Turning Movement,Vehicle Owner,Other,11,0,1,0,0,0,0,0,0,0,0,0,0,1,12,111,3
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,1,0,54,44,8
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Wet,SMV Other,Vehicle Owner,Other,14,0,1,0,0,0,0,1,1,0,0,0,0,0,12,90,1
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,17,0,1,0,0,0,0,1,1,0,0,0,0,1,33,48,5
+Other,Other,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Unattended Vehicle,Motorcycle Passenger,2 Wheels,22,0,0,1,0,0,0,1,1,0,0,0,0,0,41,119,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,SMV Other,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,1,0,0,43,138,8
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Rear End,Driver,Van,18,0,1,0,0,0,0,0,0,0,0,1,0,1,33,47,9
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Dawn,Dry,Pedestrian Collisions,Pedestrian,Other,5,0,1,0,0,0,0,1,1,0,0,0,1,0,31,27,5
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,7,0,1,0,0,0,0,0,0,0,0,0,1,0,42,118,12
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Other,Approaching,Driver,Other,10,0,1,0,0,0,0,0,1,0,0,0,0,0,23,2,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,10,0,1,0,0,0,0,0,1,1,0,0,0,0,33,45,4
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Truck Driver,Truck,9,0,1,0,1,0,0,1,1,0,0,0,0,0,23,1,1
+Local,Etobicoke York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,12,111,7
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,21,0,1,1,0,0,0,0,1,0,0,0,0,1,14,79,9
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,1,0,0,0,1,0,54,59,2
+Collector,Scarborough,Mid-Block,Non Intersection,No Control,Other,Daylight,Other,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,42,130,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,10,0,1,0,0,0,0,0,1,0,0,0,1,0,51,73,3
+Major Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,17,1,1,0,0,0,0,0,1,0,0,0,0,0,32,50,6
+Collector,North York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,18,1,1,0,0,0,0,0,0,0,0,0,0,0,33,45,2
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,1,0,0,0,0,0,1,0,0,0,1,0,23,1,8
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Clear,Dark,Wet,SMV Other,Driver,Automobile,5,0,1,0,0,0,0,1,1,0,0,0,0,0,22,19,1
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Vehicle Owner,Other,20,0,0,0,0,1,0,0,0,0,0,0,1,0,23,2,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Truck Driver,Truck,1,0,1,0,1,0,0,0,1,0,0,0,0,0,41,120,1
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,1,1,0,0,0,1,0,23,7,10
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,12,0,1,0,0,0,0,0,0,0,0,0,1,0,13,107,5
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,11,0,0,0,0,1,0,0,1,0,0,0,1,0,52,79,11
+Local,North York,Mid-Block,Non Intersection,No Control,Snow,Daylight,Snow,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,0,0,0,0,0,1,0,31,26,1
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,1,1,1,0,0,0,0,0,0,0,0,0,0,0,52,77,3
+Minor Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Motorcycle Passenger,2 Wheels,18,0,0,1,0,0,0,0,1,0,0,0,1,0,51,71,3
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Other,Other,15,0,1,0,1,0,0,0,0,0,0,0,0,0,23,2,3
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Cyclist Collisions,Cyclist Passenger,2 Wheels,11,1,1,0,0,0,0,0,1,0,0,0,0,0,32,35,1
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dawn,Dry,Angle,Passenger,Other,5,0,1,0,0,0,0,0,1,1,0,1,0,1,42,116,4
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dusk,Dry,Other,Passenger,Other,20,0,0,0,1,0,0,0,0,0,0,0,0,1,14,85,8
+Minor Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Approaching,Driver,Automobile,11,0,1,0,1,0,0,0,0,0,0,0,0,0,22,14,3
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,2,0,1,0,0,0,0,1,1,0,0,0,0,1,32,34,8
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Bus,18,0,0,0,0,1,0,0,0,0,0,0,1,0,13,31,11
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Bus,7,0,0,0,0,1,0,0,1,0,0,0,1,0,42,116,11
+Major Arterial,Etobicoke York,Intersection,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,1,0,1,0,0,0,0,0,0,0,0,0,1,0,12,30,12
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Turning Movement,Driver,Automobile,9,0,1,0,0,0,0,0,1,1,0,0,0,1,31,27,10
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Vehicle Owner,Other,18,0,1,0,0,0,0,0,1,0,0,0,0,0,42,116,11
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Snow,Dark,Snow,Angle,Driver,Bus,3,0,1,0,0,1,0,0,1,1,0,0,0,1,53,39,1
+Collector,North York,Intersection,Other,No Control,Clear,Daylight,Wet,SMV Other,Driver,Automobile,11,0,1,0,0,0,0,1,1,0,0,0,0,1,54,43,1
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,9,0,1,0,0,0,0,0,1,1,0,0,0,0,23,6,6
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,1,0,53,103,11
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,4,0,1,0,0,0,0,0,1,0,0,0,1,0,42,130,5
+Major Arterial,North York,Intersection,At Intersection,No Control,Snow,Dark,Wet,Approaching,Driver,Automobile,0,0,1,0,0,0,0,0,0,0,0,0,0,0,33,52,12
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Vehicle Owner,Other,16,0,1,0,0,0,0,0,0,0,0,0,0,1,42,116,2
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,1,0,1,1,0,0,0,1,1,1,0,0,0,1,53,56,7
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,11,93,8
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,1,0,1,0,0,0,0,0,0,0,0,0,1,0,43,127,11
+Local,North York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Passenger,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,1,53,39,4
+Laneway,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,51,73,9
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Bus,6,0,0,0,0,1,0,0,0,0,0,0,1,0,11,87,10
+Collector,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,22,15,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,"Fog, Mist, Smoke, Dust",Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,13,0,1,1,0,0,0,1,1,0,0,0,0,0,14,84,5
+Collector,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Motorcycle Passenger,2 Wheels,16,0,1,1,0,0,0,0,1,1,0,0,0,1,12,111,8
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,0,52,76,12
+Minor Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,21,0,1,1,0,0,0,0,0,0,0,0,0,0,51,77,6
+Other,North York,Mid-Block,Other,No Control,Clear,Dark,Wet,SMV Other,Driver,Automobile,5,0,1,0,0,0,0,0,0,0,0,0,0,1,54,44,10
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,0,51,75,10
+Collector,Scarborough,Intersection,Other,Stop Sign,Clear,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,15,0,0,0,1,0,0,0,1,0,0,0,1,0,41,122,3
+Major Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,10,0,1,0,1,0,0,0,1,0,0,0,1,1,53,99,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Approaching,Vehicle Owner,Other,18,0,1,0,1,0,0,0,0,0,0,1,0,0,55,63,9
+Local,Etobicoke York,Intersection,Non Intersection,Stop Sign,Clear,Dark,Dry,SMV Other,Driver,Automobile,21,0,1,0,0,0,0,0,0,0,0,0,0,0,23,7,5
+Minor Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Automobile,8,1,1,0,0,0,0,1,1,0,0,0,0,0,12,30,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,12,0,1,0,0,0,0,0,1,1,0,0,1,0,32,41,5
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Approaching,Motorcycle Passenger,2 Wheels,2,0,1,1,0,0,0,0,0,0,0,0,0,1,11,87,9
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,0,0,0,1,0,0,0,0,0,0,1,0,11,85,4
+Major Arterial,Scarborough,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Sideswipe,Other,Other,9,0,1,0,0,0,0,0,0,0,0,1,0,0,43,139,12
+Minor Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Rain,Daylight,Wet,Turning Movement,Driver,Automobile,11,0,1,0,0,0,0,0,1,0,0,0,0,1,42,130,4
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,23,0,1,0,0,0,0,1,1,0,1,0,0,1,31,25,10
+Minor Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,16,0,1,0,0,0,0,0,0,0,0,0,1,0,31,27,10
+Major Arterial,North York,Other,Other,No Control,Clear,Dark,Wet,Pedestrian Collisions,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,1,0,32,31,12
+Minor Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Motorcycle Passenger,2 Wheels,18,0,0,1,0,0,0,0,1,0,0,0,1,0,51,71,3
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,8,0,1,0,0,0,0,1,1,0,0,1,0,1,42,131,7
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Truck Driver,Truck,21,0,0,0,1,0,0,0,1,0,0,0,1,0,52,77,3
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,22,0,1,0,0,0,0,0,0,0,0,0,1,0,12,30,8
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,18,0,0,0,0,1,0,0,0,0,0,0,1,0,13,31,11
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,0,1,0,0,0,1,0,32,36,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,0,0,1,0,0,0,1,0,0,0,1,0,31,21,5
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Truck,9,0,1,0,0,0,0,0,0,0,0,0,1,1,33,47,8
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Vehicle Owner,Other,14,0,1,0,0,0,0,0,0,0,0,1,0,1,32,33,3
+Major Arterial,Scarborough,Intersection,At Intersection,Other,Rain,Daylight,Wet,Turning Movement,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,0,1,42,132,5
+Other,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Driver,Automobile,2,0,1,0,0,0,0,1,1,0,0,0,0,0,14,85,10
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Passenger,Other,16,0,1,0,0,0,0,0,1,0,0,0,0,1,14,85,6
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,0,0,0,0,1,0,13,106,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,19,0,1,0,0,0,0,0,1,0,0,0,1,0,12,112,9
+Minor Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,23,0,1,0,0,0,0,0,1,0,0,0,1,1,54,54,8
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Snow,Dark,Wet,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,1,42,130,12
+Collector,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,13,0,1,0,0,0,0,0,1,0,0,0,0,1,54,44,2
+Major Arterial,Scarborough,Intersection,Other,Traffic Signal,Clear,Dark,Wet,Angle,Vehicle Owner,Other,3,0,1,0,1,0,0,0,1,1,0,0,0,1,42,131,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,19,0,1,0,0,0,0,0,1,0,0,0,1,0,12,112,9
+Collector,North York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,SMV Unattended Vehicle,Motorcycle Passenger,2 Wheels,20,0,1,1,0,0,0,1,1,0,0,0,0,1,54,43,6
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,23,3,9
+Major Arterial,North York,Intersection,At Intersection,Stop Sign,Clear,Dark,Dry,Angle,Driver,Automobile,20,0,1,0,1,0,0,1,1,0,0,0,0,1,53,100,9
+Major Arterial,North York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,14,0,0,0,1,0,0,0,0,0,0,0,1,0,32,39,4
+Collector,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Wet,Pedestrian Collisions,Pedestrian,Other,7,0,1,0,0,0,0,0,1,0,0,0,1,1,42,131,1
+Collector,Scarborough,Intersection,Other,Stop Sign,Clear,Daylight,Wet,Pedestrian Collisions,Vehicle Owner,Other,15,0,0,0,1,0,0,0,1,0,0,0,1,0,41,122,3
+Major Arterial,North York,Mid-Block,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,16,1,0,0,1,0,0,0,1,0,0,0,0,0,53,55,9
+Pending,Toronto and East York,Mid-Block,Other,No Control,Snow,Daylight,Snow,SMV Other,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,0,0,51,73,1
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Vehicle Owner,Other,8,1,0,0,1,0,0,0,0,0,0,0,0,0,53,103,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Driver,Automobile,15,0,1,0,0,0,0,0,1,0,0,0,1,1,14,78,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Driver,Van,18,1,1,0,0,0,0,0,1,0,0,0,0,0,14,83,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Passenger,Other,22,1,1,0,0,0,0,0,0,0,0,0,0,1,51,77,5
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,42,128,12
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,13,0,1,1,0,0,0,0,1,0,0,0,0,0,43,133,4
+Minor Arterial,Scarborough,Intersection,At Intersection,Stop Sign,Clear,Daylight,Dry,Angle,Vehicle Owner,Other,10,0,1,0,0,0,0,0,1,0,0,0,0,1,42,131,6
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Dusk,Dry,Other,Truck Driver,Truck,20,0,0,0,1,0,0,0,0,0,0,0,0,1,14,85,8
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,11,0,1,0,0,0,0,0,1,0,0,0,1,0,11,88,10
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,17,1,0,0,0,0,0,0,0,0,0,0,1,0,52,77,6
+Laneway,Toronto and East York,Other,Other,No Control,Clear,Daylight,Dry,SMV Other,Driver,Automobile,6,0,1,0,0,0,0,0,0,0,0,0,0,0,11,83,8
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Dusk,Dry,Pedestrian Collisions,Driver,Automobile,18,0,1,0,0,0,0,0,0,0,0,0,1,0,53,104,2
+Minor Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,SMV Other,Passenger,Other,18,0,1,0,0,0,0,1,1,0,0,0,0,1,51,77,7
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,Emergency,14,1,1,0,0,0,1,0,1,0,0,0,0,0,53,97,9
+Minor Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Vehicle Owner,Other,11,0,1,0,0,0,0,0,0,0,0,0,1,0,11,83,5
+Minor Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Wet,Approaching,Driver,Automobile,15,0,1,0,0,0,0,0,0,0,0,0,0,0,42,131,3
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,0,32,51,6
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Dark,Dry,SMV Other,Motorcycle Passenger,2 Wheels,0,0,0,1,0,0,0,1,1,0,0,0,0,0,51,71,6
+Collector,Etobicoke York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Other,Other,14,0,1,0,0,0,0,0,0,0,0,0,1,0,22,15,4
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,0,0,1,0,0,0,0,0,0,0,0,0,1,0,54,58,3
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Turning Movement,Driver,Automobile,19,0,1,1,0,0,0,1,1,0,0,0,0,0,12,110,8
+Major Arterial,Toronto and East York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,15,0,1,0,0,0,0,0,0,0,0,0,1,0,52,76,8
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,21,0,1,0,0,0,0,0,1,0,0,0,1,1,22,14,6
+Other,Other,Other,At/Near Private Drive,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,6,0,0,0,0,0,0,0,0,0,0,0,1,0,12,111,7
+Major Arterial,Other,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,23,0,1,0,0,0,0,0,0,0,0,0,1,0,13,94,11
+Collector,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Passenger,Automobile,21,0,1,0,0,0,0,1,1,0,0,0,0,1,31,21,4
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Truck Driver,Truck,5,0,0,0,1,0,0,1,1,0,0,0,0,1,55,68,3
+Major Arterial,Etobicoke York,Mid-Block,Non Intersection,No Control,Rain,Dark,Wet,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,1,0,0,0,1,0,11,90,4
+Major Arterial,North York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,1,0,0,0,1,0,53,103,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Cyclist Collisions,Truck Driver,Truck,20,1,0,0,1,0,0,0,0,0,0,0,0,0,31,27,4
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dusk,Dry,Pedestrian Collisions,Vehicle Owner,Automobile,17,0,1,0,0,0,0,0,1,0,0,0,1,0,54,58,3
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,Approaching,Passenger,Other,21,0,1,0,0,0,0,0,0,0,1,0,0,1,32,36,2
+Major Arterial,Toronto and East York,Intersection,Other,No Control,Snow,Dark,Slush,Pedestrian Collisions,Pedestrian,Other,5,0,0,0,0,1,0,0,0,0,0,0,1,0,13,92,1
+Major Arterial,Etobicoke York,Intersection,Other,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,0,1,0,22,15,3
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,SMV Other,Passenger,Other,21,0,1,0,0,0,0,1,1,0,0,0,0,1,51,71,11
+Major Arterial,Etobicoke York,Intersection,At Intersection,No Control,Clear,Dark,Dry,Turning Movement,Driver,Automobile,22,0,1,1,0,0,0,0,1,0,0,0,0,0,22,15,7
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,1,0,0,0,1,0,23,1,12
+Major Arterial,Toronto and East York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,23,0,1,1,0,0,0,0,1,0,0,0,0,0,11,93,8
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Driver,Bus,17,0,1,0,0,1,0,0,1,0,0,0,0,0,31,26,4
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,10,0,1,0,0,0,0,0,0,0,0,0,1,0,43,127,8
+Minor Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,1,41,120,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Wet,Turning Movement,Driver,Automobile,5,0,1,0,0,0,0,0,1,0,0,0,0,0,33,45,12
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Dark,Dry,Turning Movement,Driver,Automobile,5,0,1,0,0,0,0,0,1,0,0,0,0,1,31,25,11
+Local,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,17,0,1,0,0,0,0,0,0,0,0,0,1,0,55,65,7
+Major Arterial,Scarborough,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Rear End,Driver,Bus,6,0,1,0,0,1,0,0,0,0,0,0,0,1,42,117,8
+Minor Arterial,Scarborough,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Turning Movement,Motorcycle Passenger,2 Wheels,20,0,1,1,0,0,0,1,1,0,0,0,0,1,42,118,7
+Other,North York,Mid-Block,Other,No Control,Clear,Dark,Dry,SMV Other,Vehicle Owner,Other,1,0,1,0,0,0,0,0,0,0,1,0,0,1,13,102,6
+Major Arterial,Scarborough,Mid-Block,Non Intersection,No Control,Clear,Dark,Dry,SMV Other,Motorcycle Passenger,2 Wheels,23,0,0,1,0,0,0,0,0,0,0,0,0,0,41,122,5
+Major Arterial,North York,Mid-Block,Other,No Control,Clear,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,20,0,1,0,0,0,0,0,1,0,0,0,1,0,53,102,1
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Driver,Automobile,10,0,1,0,0,0,0,0,1,0,0,0,1,0,33,52,9
+Major Arterial,Etobicoke York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Truck Driver,Truck,14,0,0,0,1,0,0,0,1,0,0,0,1,0,31,21,5
+Major Arterial,North York,Mid-Block,Non Intersection,No Control,Clear,Daylight,Dry,Approaching,Motorcycle Passenger,2 Wheels,19,0,1,1,0,0,0,0,0,0,0,0,0,0,14,82,6
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,0,0,1,0,0,0,0,0,0,0,0,0,1,0,12,113,9
+Major Arterial,North York,Intersection,Other,No Control,Rain,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,18,0,1,0,0,0,0,0,0,0,0,0,1,0,54,43,12
+Local,Etobicoke York,Intersection,At Intersection,No Control,Clear,Dark,Wet,Pedestrian Collisions,Pedestrian,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,0,23,4,12
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,SMV Other,Vehicle Owner,Other,17,0,1,0,0,0,0,1,1,0,0,0,0,1,51,77,3
+Major Arterial,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Cyclist Collisions,Other,Other,17,1,0,0,1,0,0,0,1,0,0,0,0,0,53,95,10
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Pedestrian Collisions,Pedestrian,Other,9,0,1,0,0,0,0,0,0,0,0,0,1,1,33,47,8
+Other,Toronto and East York,Mid-Block,Other,No Control,Clear,Daylight,Dry,Rear End,Driver,Automobile,15,0,1,0,0,0,0,1,1,0,0,0,0,1,54,58,3
+Major Arterial,Etobicoke York,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,20,0,1,0,0,0,0,0,0,0,0,0,1,0,23,1,11
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Rain,Daylight,Wet,Rear End,Driver,Automobile,13,0,1,0,0,0,0,0,0,0,0,1,0,1,43,137,1
+Major Arterial,Scarborough,Mid-Block,Other,No Control,Clear,Dark,Dry,Pedestrian Collisions,Driver,Automobile,22,0,1,0,0,0,0,0,0,0,0,0,1,1,42,117,7
+Major Arterial,Toronto and East York,Exit Ramp,Other,No Control,Clear,Daylight,Dry,Sideswipe,Motorcycle Passenger,2 Wheels,18,0,1,1,0,0,0,1,1,0,0,0,0,0,55,70,6
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Rain,Daylight,Wet,Pedestrian Collisions,Passenger,Other,17,0,1,0,0,0,0,0,0,0,0,0,1,1,32,33,2
+Major Arterial,Toronto and East York,Intersection,At Intersection,No Control,Clear,Daylight,Dry,Cyclist Collisions,Cyclist Passenger,2 Wheels,16,1,1,0,0,0,0,0,0,0,0,0,0,0,14,83,9
+Major Arterial,North York,Intersection,At Intersection,Traffic Signal,Clear,Daylight,Dry,Angle,Driver,Automobile,12,0,1,0,0,0,0,0,1,1,0,0,0,0,32,50,6
+Major Arterial,Toronto and East York,Intersection,Other,Traffic Signal,Clear,Dark,Dry,Sideswipe,Driver,Automobile,20,0,1,1,0,0,0,0,0,0,0,0,0,0,11,91,4
