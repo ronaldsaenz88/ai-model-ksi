@@ -62,10 +62,10 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 deploy_folder = r'deploy'
 
 # Load data
-X_test_ds = pd.read_csv(path.join(deploy_folder,"x_test_data_ds_group7.csv"))
+X_test_ds = pd.read_csv(path.join(deploy_folder,"X_test_data_ds_group7.csv"))
 y_test_ds = pd.read_csv(path.join(deploy_folder,"y_test_data_ds_group7.csv"))
 
-X_test_us = pd.read_csv(path.join(deploy_folder,"x_test_data_us_group7.csv"))
+X_test_us = pd.read_csv(path.join(deploy_folder,"X_test_data_us_group7.csv"))
 y_test_us = pd.read_csv(path.join(deploy_folder,"y_test_data_us_group7.csv"))
 
 # load all models:        
