@@ -53,6 +53,8 @@ from flask_cors import CORS, cross_origin
 # Your API definition
 app = Flask(__name__)
 CORS(app)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 #####################################################################################################
@@ -94,7 +96,7 @@ model_columns = features_columns_categorical + features_columns_numbers
 # METHOD PREDICT - RETURN THE PREDICTION USING EACH MODEL
 #####################################################################################################
 
-@app.route("/predict/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
+@app.route("/api/predict/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
 @cross_origin()
 def predict(model_name):
     if models_loaded:
@@ -123,7 +125,7 @@ def predict(model_name):
 # METHOD SCORES - RETURN STATS OF EACH MODEL 
 #####################################################################################################
 
-@app.route("/scores/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
+@app.route("/api/scores/<model_name>", methods=['GET','POST']) #use decorator pattern for the route
 @cross_origin()
 def scores(model_name):
     if models_loaded:
