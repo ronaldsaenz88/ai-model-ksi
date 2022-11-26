@@ -41,6 +41,4 @@ from app.main import app
 
 
 if __name__ == "__main__":
-    port = 12345 # If you don't provide any port the port will be set to 12345
-
-    app.run(port=port, debug=True)
+    app.run()
